@@ -7,8 +7,20 @@
     <nav class="flex gap-2">
       <router-link to="/" class="btn">Home</router-link>
       <router-link v-if="auth.isAdmin" to="/create" class="btn">Create</router-link>
-      <button v-if="auth.isLoggedIn" @click="auth.login()" class="btn">Login</button>
-      <button v-else @click="auth.logout()" class="btn">Logout</button>
+      <button
+        v-if="auth.isLoggedIn"
+        @click="auth.login()"
+        class="px-4 py-2 rounded bg-blue-600 hover:bg-blue-700 transition"
+      >
+        Login
+      </button>
+      <button
+        v-else
+        @click="auth.logout()"
+        class="px-4 py-2 rounded bg-blue-600 hover:bg-blue-700 transition"
+      >
+        Logout
+      </button>
     </nav>
   </header>
 </template>
@@ -18,9 +30,3 @@ import { useAuthStore } from '../stores/auth'
 
 const auth = useAuthStore()
 </script>
-
-<style scoped>
-.btn {
-  @apply px-4 py-2 rounded bg-blue-600 hover:bg-blue-700 transition;
-}
-</style>
