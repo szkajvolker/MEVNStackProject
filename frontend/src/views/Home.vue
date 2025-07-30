@@ -1,21 +1,26 @@
 <template>
   <div>
     <h1>Welcome to the home page</h1>
-    <div v-if="loading" class="text-center my-8">Loading...</div>
-    <div v-else-if="error" class="text-red-500 my-8">{{ error }}</div>
-    <div v-else class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <ProductCard
-        v-for="product in products"
-        :key="product._id"
-        :product="product"
-        @show-details="openModal"
-        @delete="deleteProduct"
-      ></ProductCard>
-      <ProductModal
-        v-if="showModal"
-        :product="selectedProduct"
-        @close="showModal = false"
-      ></ProductModal>
+    <div v-if="!auth.isLoggedIn">
+      <Register />
+    </div>
+    <div v-else>
+      <div v-if="loading" class="text-center my-8">Loading...</div>
+      <div v-else-if="error" class="text-red-500 my-8">{{ error }}</div>
+      <div v-else class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <ProductCard
+          v-for="product in products"
+          :key="product._id"
+          :product="product"
+          @show-details="openModal"
+          @delete="deleteProduct"
+        ></ProductCard>
+        <ProductModal
+          v-if="showModal"
+          :product="selectedProduct"
+          @close="showModal = false"
+        ></ProductModal>
+      </div>
     </div>
   </div>
 </template>
@@ -24,11 +29,14 @@
 import { ref, onMounted } from "vue";
 import ProductCard from "../components/ProductCard.vue";
 import ProductModal from "../components/ProductModal.vue";
+import { useAuthStore } from "../stores/auth";
+import Register from "./Register.vue";
 
 const products = ref([]);
 const loading = ref(true);
 const error = ref("");
 const showModal = ref(false);
+const auth = useAuthStore();
 
 onMounted(async () => {
   loading.value = true;

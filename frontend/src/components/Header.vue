@@ -7,13 +7,13 @@
     <nav class="flex gap-2">
       <router-link to="/" class="btn">Home</router-link>
       <router-link v-if="auth.isAdmin" to="/create" class="btn">Create</router-link>
-      <button
+      <router-link
         v-if="!auth.isLoggedIn"
-        @click="auth.login()"
+        to="/login"
         class="px-4 py-2 rounded bg-blue-600 hover:bg-blue-700 transition"
       >
         Login
-      </button>
+      </router-link>
       <button
         v-else
         @click="auth.logout()"

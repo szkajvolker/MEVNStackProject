@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import productRoutes from "./routes/product.routes.js";
 import loginRoutes from "./routes/login.routes.js";
+import registerRoutes from "./routes/reg.routes.js";
 //import orderRoutes from "./routes/order.routes.js";
 import { connectDB } from "./config/db.js";
 
@@ -15,6 +16,7 @@ app.use(express.json());
 
 app.use("/api/products", productRoutes);
 app.use("/api/login", loginRoutes);
+app.use("/api/register", registerRoutes);
 //app.use("/api/orders", orderRoutes);
 
 app.listen(PORT, () => {
