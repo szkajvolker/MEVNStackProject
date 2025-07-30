@@ -10,13 +10,13 @@
       />
       <input
         v-model="email"
-        type="text"
+        type="email"
         placeholder="Email"
         class="border-2 border-gray-300 rounded-lg mb-4 w-full"
       />
       <input
         v-model="password"
-        type="text"
+        type="password"
         placeholder="Password"
         class="border-2 border-gray-300 rounded-lg mb-4 w-full"
       />
@@ -27,6 +27,12 @@
         >
           Register
         </button>
+        <router-link
+          to="/login"
+          class="border-2 font-bold text-blue-500 rounded-lg p-1 cursor-pointer hover:bg-blue-500 hover:text-white hover:border-gray-400"
+        >
+          Login
+        </router-link>
       </div>
       <div v-if="error" class="text-red-400 bg-red-800">{{ error }}</div>
       <div v-if="success" class="text-green-400 bg-green-800">Registration successfully!</div>
@@ -37,13 +43,19 @@
 <script setup>
 import { ref } from "vue";
 import { useRouter } from "vue-router";
+import { useAuthStore } from "../stores/auth";
 
+const auth = useAuthStore();
 const username = ref("");
 const email = ref("");
 const password = ref("");
 const error = ref("");
+const success = ref("");
 const router = useRouter();
 
+if (auth.isLoggedIn) {
+  router.push("/");
+}
 async function register() {
   error.value = "";
   success.value = false;
@@ -59,7 +71,10 @@ async function register() {
     });
     const data = await res.json();
     if (!res.ok) throw new Error(data.message || "Registration failed");
-    router.push("/login");
+    success.value = true;
+    setTimeout(() => {
+      router.push("/login");
+    }, 1500);
   } catch (error) {
     error.value = error.message;
   }

@@ -39,6 +39,7 @@ async function handleLogin() {
     const data = await res.json();
     if (!res.ok) throw new Error(data.message || "Error at login");
     auth.login(data.user);
+    localStorage.setItem("token", data.token);
     router.push("/");
   } catch (error) {
     error.value = error.message;
