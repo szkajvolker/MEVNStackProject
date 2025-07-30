@@ -1,11 +1,11 @@
 <template>
   <div
-    class="p-4 border-2 rounded rounded-lg border-grey-500 shadow bg-white w-fit bg-grey-300 m-2"
+    class="bg-white rounded-xl shadow-md p-4 m-2 flex flex-col gap-2 border border-gray-200 hover:shadow-lg transition"
   >
-    <h2 class="font-bold text-lg mb-2">{{ product.name }}</h2>
-    <p class="mb-1">{{ product.brand }}</p>
-    <p class="mb-1">Price: {{ product.price }}</p>
-    <p class="text-sm text-gray-600">{{ product.description }}</p>
+    <h2 class="font-bold text-lg mb-2 text-gray-800 mb-1 truncate">{{ product.name }}</h2>
+    <p class="text-sm text-gray-500">{{ product.brand }}</p>
+    <p class="text-base text-blue-700 font-semibold">Price: {{ product.price }}</p>
+    <p class="text-xs text-gray-600 line-clamp-2">{{ product.description }}</p>
     <div>
       <button
         class="font-bold text-red-500 rounded-lg px-4 py-2 cursor-pointer"
