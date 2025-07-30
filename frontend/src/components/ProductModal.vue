@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+  <div class="fixed inset-0 bg-black/50 flex items-center justify-center z-10">
     <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-md relative">
       <button
         @click="$emit('close')"
@@ -9,38 +9,38 @@
       </button>
       <h2 class="text-2xl font-bold mb-4">{{ product.name }}</h2>
       <img src="" alt="" />
-      <p>
+      <p class="text-gray-500">
         <strong>Brand: {{ product.brand }}</strong>
       </p>
-      <p>
+      <p class="text-gray-500">
         <strong>Type: {{ product.type }}</strong>
       </p>
-      <p>
+      <p class="text-gray-500">
         <strong>Price: {{ product.price }}</strong>
       </p>
-      <p>
+      <p class="text-gray-500">
         <strong>Description: {{ product.description }}</strong>
       </p>
-      <p>
+      <p class="text-gray-500">
         <strong>Stock: {{ product.stock }}</strong>
       </p>
-      <p>
+      <p class="text-gray-500">
         <strong>Warranty: {{ product.warranty }}</strong>
       </p>
-      <p>
+      <p class="text-gray-500">
         <strong>ModelNumber{{ product.modelNumber }}</strong>
       </p>
-      <p>
+      <p class="text-gray-500">
         <strong
           >Release Day:{{
-            product.releasedate ? new Date(product.releaseDate).toLocaleDateString() : '-'
+            product.releasedate ? new Date(product.releaseDate).toLocaleDateString() : "-"
           }}</strong
         >
       </p>
-      <p>
-        <strong>InStock: {{ product.inStock ? '✅' : '❌' }}</strong>
+      <p class="text-gray-500">
+        <strong>InStock: {{ product.inStock ? "✅" : "❌" }}</strong>
       </p>
-      <div v-if="product.specs && Object.keys(product.specs).length" class="mt-2">
+      <div v-if="product.specs && Object.keys(product.specs).length" class="text-gray-500" mt-2>
         <strong>Specs:</strong>
         <strong></strong>
         <ul class="list-disc ml-6">
@@ -54,5 +54,5 @@
 <script setup>
 defineProps({
   product: Object,
-})
+});
 </script>

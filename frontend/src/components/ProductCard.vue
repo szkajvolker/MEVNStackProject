@@ -4,7 +4,10 @@
   >
     <h2 class="font-bold text-lg text-gray-800 mb-2 truncate">{{ product.name }}</h2>
     <p class="text-sm text-gray-500">{{ product.brand }}</p>
-    <p class="text-base text-blue-900 font-semibold">Price: {{ product.price }}</p>
+    <div class="flex flex-row gap-2">
+      <p class="text-base text-blue-900 font-semibold">Price: {{ product.price }}</p>
+      <p>{{ product.currency }}</p>
+    </div>
     <p class="text-xs text-gray-600 line-clamp-2">{{ product.description }}</p>
     <div>
       <button
@@ -29,5 +32,5 @@
 <script setup>
 defineProps({
   product: Object,
-})
+});
 </script>

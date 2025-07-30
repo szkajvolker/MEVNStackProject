@@ -1,5 +1,5 @@
 <template>
-  <header class="flex items-center justify-between p-4 bg-gray-800 text-white">
+  <header class="flex items-center justify-between p-4 bg-gray-800 text-white top-0 w-full">
     <div class="flex items-center gap-2">
       <img src="" alt="logo" class="h-8" />
       <span class="font-bold text-lg">WebShop</span>
@@ -8,7 +8,7 @@
       <router-link to="/" class="btn">Home</router-link>
       <router-link v-if="auth.isAdmin" to="/create" class="btn">Create</router-link>
       <button
-        v-if="auth.isLoggedIn"
+        v-if="!auth.isLoggedIn"
         @click="auth.login()"
         class="px-4 py-2 rounded bg-blue-600 hover:bg-blue-700 transition"
       >
@@ -26,7 +26,7 @@
 </template>
 
 <script setup>
-import { useAuthStore } from '../stores/auth'
+import { useAuthStore } from "../stores/auth";
 
-const auth = useAuthStore()
+const auth = useAuthStore();
 </script>

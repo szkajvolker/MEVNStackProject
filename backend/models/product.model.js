@@ -20,6 +20,11 @@ const productSchema = new mongoose.Schema(
       required: [true, "Price is required"],
       min: 0,
     },
+    currency: {
+      type: String,
+      enum: ["HUF", "EUR", "USD"],
+      default: "HUF",
+    },
     description: {
       type: String,
       default: "",
