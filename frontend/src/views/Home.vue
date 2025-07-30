@@ -9,6 +9,7 @@
         :key="product._id"
         :product="product"
         @show-details="openModal"
+        @delete="deleteProduct"
       ></ProductCard>
       <ProductModal
         v-if="showModal"
@@ -43,6 +44,24 @@ onMounted(async () => {
     loading.value = false
   }
 })
+
+async function deleteProduct(product) {
+  console.log('Törlendő termék', product)
+  console.log(product._id)
+
+  try {
+    const res = await fetch(`http://localhost:3333/api/products/${product._id}`, {
+      method: 'DELETE',
+    })
+    if (!res.ok) {
+      console.error('Failed to delete', product)
+      return
+    }
+    products.value = products.value.filter((p) => p._id !== product._id)
+  } catch (error) {
+    console.error(error)
+  }
+}
 
 const selectedProduct = ref(null)
 
