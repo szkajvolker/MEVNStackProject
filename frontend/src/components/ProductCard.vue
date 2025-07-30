@@ -10,12 +10,14 @@
     </div>
     <p class="text-xs text-gray-600 line-clamp-2">{{ product.description }}</p>
     <div>
-      <button
-        class="font-bold text-red-500 rounded-lg px-4 py-2 cursor-pointer"
-        @click="$emit('delete', product)"
-      >
-        Delete
-      </button>
+      <div v-if="auth.user && auth.user.isAdmin">
+        <button
+          class="font-bold text-red-500 rounded-lg px-4 py-2 cursor-pointer"
+          @click="$emit('delete', product)"
+        >
+          Delete
+        </button>
+      </div>
       <button
         class="font-bold text-red-500 rounded-lg px-4 py-2 cursor-pointer"
         @click="$emit('show-details', product)"
@@ -30,6 +32,9 @@
 </template>
 
 <script setup>
+import { useAuthStore } from "../stores/auth";
+
+const auth = useAuthStore();
 defineProps({
   product: Object,
 });
