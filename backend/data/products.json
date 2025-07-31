@@ -1,0 +1,1902 @@
+[
+  {
+    "name": "Corsair T-Force 64GB DDR4",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 28410,
+    "description": "64GB DDR4 5200MHz memory module for gaming and performance",
+    "stock": 40,
+    "image": "https://example.com/images/corsair-t-force.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "5200MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "COR6545T-",
+    "releaseDate": "2022-07-18T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Crucial Vengeance 32GB DDR5",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 12724,
+    "description": "32GB DDR5 4000MHz memory module for gaming and performance",
+    "stock": 28,
+    "image": "https://example.com/images/crucial-vengeance.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "4000MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "CRU9499VE",
+    "releaseDate": "2022-02-16T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ADATA Fury 32GB DDR5",
+    "brand": "ADATA",
+    "type": "RAM",
+    "price": 30561,
+    "description": "32GB DDR5 3600MHz memory module for gaming and performance",
+    "stock": 32,
+    "image": "https://example.com/images/adata-fury.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3600MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "ADA6832FU",
+    "releaseDate": "2022-07-29T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Crucial Vengeance 16GB DDR5",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 72373,
+    "description": "16GB DDR5 2666MHz memory module for gaming and performance",
+    "stock": 35,
+    "image": "https://example.com/images/crucial-vengeance.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "2666MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "CRU4065VE",
+    "releaseDate": "2024-10-23T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "PNY Delta 16GB DDR4",
+    "brand": "PNY",
+    "type": "RAM",
+    "price": 50818,
+    "description": "16GB DDR4 4800MHz memory module for gaming and performance",
+    "stock": 28,
+    "image": "https://example.com/images/pny-delta.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "4800MHz",
+      "type": "DDR4",
+      "voltage": "1.4V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "PNY5717DE",
+    "releaseDate": "2021-08-17T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Patriot T-Force 16GB DDR5",
+    "brand": "Patriot",
+    "type": "RAM",
+    "price": 59248,
+    "description": "16GB DDR5 3000MHz memory module for gaming and performance",
+    "stock": 23,
+    "image": "https://example.com/images/patriot-t-force.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "3000MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "PAT1404T-",
+    "releaseDate": "2023-12-31T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Samsung Vengeance 8GB DDR5",
+    "brand": "Samsung",
+    "type": "RAM",
+    "price": 69284,
+    "description": "8GB DDR5 2666MHz memory module for gaming and performance",
+    "stock": 26,
+    "image": "https://example.com/images/samsung-vengeance.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "2666MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "SAM5360VE",
+    "releaseDate": "2021-11-01T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Patriot Ballistix 8GB DDR4",
+    "brand": "Patriot",
+    "type": "RAM",
+    "price": 60563,
+    "description": "8GB DDR4 3600MHz memory module for gaming and performance",
+    "stock": 20,
+    "image": "https://example.com/images/patriot-ballistix.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "3600MHz",
+      "type": "DDR4",
+      "voltage": "1.4V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "PAT6042BA",
+    "releaseDate": "2020-04-05T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill Fury 8GB DDR4",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 68545,
+    "description": "8GB DDR4 4800MHz memory module for gaming and performance",
+    "stock": 40,
+    "image": "https://example.com/images/g.skill-fury.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "4800MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "G.S9837FU",
+    "releaseDate": "2023-01-31T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "PNY Ripjaws 64GB DDR5",
+    "brand": "PNY",
+    "type": "RAM",
+    "price": 27307,
+    "description": "64GB DDR5 4400MHz memory module for gaming and performance",
+    "stock": 26,
+    "image": "https://example.com/images/pny-ripjaws.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "4400MHz",
+      "type": "DDR5",
+      "voltage": "1.2V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "PNY6541RI",
+    "releaseDate": "2023-10-18T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair T-Force 64GB DDR5",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 61673,
+    "description": "64GB DDR5 3600MHz memory module for gaming and performance",
+    "stock": 11,
+    "image": "https://example.com/images/corsair-t-force.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3600MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "COR9998T-",
+    "releaseDate": "2024-08-09T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair XPG 8GB DDR5",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 55273,
+    "description": "8GB DDR5 3000MHz memory module for gaming and performance",
+    "stock": 25,
+    "image": "https://example.com/images/corsair-xpg.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "3000MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "COR3930XP",
+    "releaseDate": "2020-04-11T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Samsung Fury 16GB DDR5",
+    "brand": "Samsung",
+    "type": "RAM",
+    "price": 63932,
+    "description": "16GB DDR5 4800MHz memory module for gaming and performance",
+    "stock": 14,
+    "image": "https://example.com/images/samsung-fury.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.2V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "SAM7641FU",
+    "releaseDate": "2024-12-21T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Ripjaws 32GB DDR4",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 33483,
+    "description": "32GB DDR4 3200MHz memory module for gaming and performance",
+    "stock": 47,
+    "image": "https://example.com/images/teamgroup-ripjaws.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3200MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "TEA5655RI",
+    "releaseDate": "2021-09-23T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "PNY Vengeance 8GB DDR4",
+    "brand": "PNY",
+    "type": "RAM",
+    "price": 67733,
+    "description": "8GB DDR4 3000MHz memory module for gaming and performance",
+    "stock": 21,
+    "image": "https://example.com/images/pny-vengeance.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "3000MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "PNY3936VE",
+    "releaseDate": "2021-05-16T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston Viper 64GB DDR5",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 33250,
+    "description": "64GB DDR5 3000MHz memory module for gaming and performance",
+    "stock": 29,
+    "image": "https://example.com/images/kingston-viper.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3000MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "KIN3312VI",
+    "releaseDate": "2022-08-28T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Ripjaws 64GB DDR5",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 51856,
+    "description": "64GB DDR5 3600MHz memory module for gaming and performance",
+    "stock": 16,
+    "image": "https://example.com/images/teamgroup-ripjaws.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3600MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "TEA9564RI",
+    "releaseDate": "2022-04-29T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Crucial T-Force 8GB DDR4",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 76090,
+    "description": "8GB DDR4 3000MHz memory module for gaming and performance",
+    "stock": 6,
+    "image": "https://example.com/images/crucial-t-force.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "3000MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "CRU6311T-",
+    "releaseDate": "2022-10-25T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Elite 64GB DDR5",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 50190,
+    "description": "64GB DDR5 4000MHz memory module for gaming and performance",
+    "stock": 5,
+    "image": "https://example.com/images/teamgroup-elite.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "4000MHz",
+      "type": "DDR5",
+      "voltage": "1.2V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "TEA9553EL",
+    "releaseDate": "2020-05-14T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Samsung Fury 64GB DDR4",
+    "brand": "Samsung",
+    "type": "RAM",
+    "price": 17446,
+    "description": "64GB DDR4 3600MHz memory module for gaming and performance",
+    "stock": 15,
+    "image": "https://example.com/images/samsung-fury.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3600MHz",
+      "type": "DDR4",
+      "voltage": "1.4V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "SAM1447FU",
+    "releaseDate": "2023-05-20T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX T-Force 16GB DDR5",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 24675,
+    "description": "16GB DDR5 2666MHz memory module for gaming and performance",
+    "stock": 17,
+    "image": "https://example.com/images/hyperx-t-force.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "2666MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "HYP7558T-",
+    "releaseDate": "2022-09-29T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Ballistix 16GB DDR5",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 57398,
+    "description": "16GB DDR5 3200MHz memory module for gaming and performance",
+    "stock": 8,
+    "image": "https://example.com/images/teamgroup-ballistix.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "3200MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "TEA1513BA",
+    "releaseDate": "2022-09-11T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Patriot Ballistix 16GB DDR5",
+    "brand": "Patriot",
+    "type": "RAM",
+    "price": 43470,
+    "description": "16GB DDR5 4800MHz memory module for gaming and performance",
+    "stock": 12,
+    "image": "https://example.com/images/patriot-ballistix.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "PAT9150BA",
+    "releaseDate": "2023-07-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Samsung T-Force 32GB DDR4",
+    "brand": "Samsung",
+    "type": "RAM",
+    "price": 68629,
+    "description": "32GB DDR4 4000MHz memory module for gaming and performance",
+    "stock": 21,
+    "image": "https://example.com/images/samsung-t-force.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "4000MHz",
+      "type": "DDR4",
+      "voltage": "1.4V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "SAM4813T-",
+    "releaseDate": "2024-12-18T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Patriot Ballistix 32GB DDR4",
+    "brand": "Patriot",
+    "type": "RAM",
+    "price": 50067,
+    "description": "32GB DDR4 3000MHz memory module for gaming and performance",
+    "stock": 42,
+    "image": "https://example.com/images/patriot-ballistix.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3000MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "PAT9827BA",
+    "releaseDate": "2022-07-13T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Patriot XPG 32GB DDR4",
+    "brand": "Patriot",
+    "type": "RAM",
+    "price": 44179,
+    "description": "32GB DDR4 3000MHz memory module for gaming and performance",
+    "stock": 46,
+    "image": "https://example.com/images/patriot-xpg.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3000MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "PAT2809XP",
+    "releaseDate": "2024-05-10T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill Ripjaws 64GB DDR4",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 24692,
+    "description": "64GB DDR4 2666MHz memory module for gaming and performance",
+    "stock": 20,
+    "image": "https://example.com/images/g.skill-ripjaws.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "2666MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "G.S9691RI",
+    "releaseDate": "2020-09-17T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Vengeance 32GB DDR4",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 75756,
+    "description": "32GB DDR4 4000MHz memory module for gaming and performance",
+    "stock": 30,
+    "image": "https://example.com/images/hyperx-vengeance.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "4000MHz",
+      "type": "DDR4",
+      "voltage": "1.4V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "HYP7520VE",
+    "releaseDate": "2022-07-07T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill Viper 16GB DDR5",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 53511,
+    "description": "16GB DDR5 5200MHz memory module for gaming and performance",
+    "stock": 44,
+    "image": "https://example.com/images/g.skill-viper.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "5200MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "G.S9742VI",
+    "releaseDate": "2024-03-11T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Fury 64GB DDR4",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 71970,
+    "description": "64GB DDR4 5200MHz memory module for gaming and performance",
+    "stock": 48,
+    "image": "https://example.com/images/hyperx-fury.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "5200MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "HYP3195FU",
+    "releaseDate": "2021-03-06T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Ripjaws 16GB DDR4",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 38800,
+    "description": "16GB DDR4 3200MHz memory module for gaming and performance",
+    "stock": 2,
+    "image": "https://example.com/images/hyperx-ripjaws.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "3200MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "HYP8174RI",
+    "releaseDate": "2023-01-27T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Samsung Fury 64GB DDR5",
+    "brand": "Samsung",
+    "type": "RAM",
+    "price": 45687,
+    "description": "64GB DDR5 4000MHz memory module for gaming and performance",
+    "stock": 8,
+    "image": "https://example.com/images/samsung-fury.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "4000MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "SAM3304FU",
+    "releaseDate": "2022-10-02T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "PNY T-Force 32GB DDR5",
+    "brand": "PNY",
+    "type": "RAM",
+    "price": 72393,
+    "description": "32GB DDR5 3000MHz memory module for gaming and performance",
+    "stock": 16,
+    "image": "https://example.com/images/pny-t-force.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3000MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "PNY3451T-",
+    "releaseDate": "2023-05-18T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston XPG 16GB DDR4",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 33572,
+    "description": "16GB DDR4 2666MHz memory module for gaming and performance",
+    "stock": 42,
+    "image": "https://example.com/images/kingston-xpg.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "2666MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "KIN2787XP",
+    "releaseDate": "2022-10-21T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ADATA Elite 32GB DDR4",
+    "brand": "ADATA",
+    "type": "RAM",
+    "price": 76988,
+    "description": "32GB DDR4 3200MHz memory module for gaming and performance",
+    "stock": 29,
+    "image": "https://example.com/images/adata-elite.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3200MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "ADA7314EL",
+    "releaseDate": "2021-07-16T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Ballistix 8GB DDR5",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 25852,
+    "description": "8GB DDR5 3200MHz memory module for gaming and performance",
+    "stock": 22,
+    "image": "https://example.com/images/teamgroup-ballistix.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "3200MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "TEA6625BA",
+    "releaseDate": "2021-07-01T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Crucial Fury 64GB DDR4",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 13163,
+    "description": "64GB DDR4 3200MHz memory module for gaming and performance",
+    "stock": 13,
+    "image": "https://example.com/images/crucial-fury.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3200MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "CRU4230FU",
+    "releaseDate": "2020-06-29T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Ripjaws 8GB DDR4",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 31295,
+    "description": "8GB DDR4 5200MHz memory module for gaming and performance",
+    "stock": 42,
+    "image": "https://example.com/images/teamgroup-ripjaws.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "5200MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "TEA3017RI",
+    "releaseDate": "2022-10-20T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Predator 16GB DDR4",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 40765,
+    "description": "16GB DDR4 3000MHz memory module for gaming and performance",
+    "stock": 15,
+    "image": "https://example.com/images/teamgroup-predator.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "3000MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "TEA1387PR",
+    "releaseDate": "2021-08-09T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX XPG 8GB DDR5",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 67547,
+    "description": "8GB DDR5 5200MHz memory module for gaming and performance",
+    "stock": 23,
+    "image": "https://example.com/images/hyperx-xpg.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "5200MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "HYP5299XP",
+    "releaseDate": "2023-11-24T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Patriot Ballistix 32GB DDR5",
+    "brand": "Patriot",
+    "type": "RAM",
+    "price": 27746,
+    "description": "32GB DDR5 3200MHz memory module for gaming and performance",
+    "stock": 5,
+    "image": "https://example.com/images/patriot-ballistix.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3200MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "PAT3043BA",
+    "releaseDate": "2021-07-03T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston Fury 16GB DDR5",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 64616,
+    "description": "16GB DDR5 3000MHz memory module for gaming and performance",
+    "stock": 14,
+    "image": "https://example.com/images/kingston-fury.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "3000MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "KIN1456FU",
+    "releaseDate": "2020-11-27T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill Ballistix 8GB DDR5",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 24072,
+    "description": "8GB DDR5 4400MHz memory module for gaming and performance",
+    "stock": 27,
+    "image": "https://example.com/images/g.skill-ballistix.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "4400MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "G.S1553BA",
+    "releaseDate": "2022-07-14T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ADATA Viper 32GB DDR4",
+    "brand": "ADATA",
+    "type": "RAM",
+    "price": 36639,
+    "description": "32GB DDR4 3200MHz memory module for gaming and performance",
+    "stock": 25,
+    "image": "https://example.com/images/adata-viper.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3200MHz",
+      "type": "DDR4",
+      "voltage": "1.35V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "ADA5271VI",
+    "releaseDate": "2023-11-17T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Samsung Fury 8GB DDR5",
+    "brand": "Samsung",
+    "type": "RAM",
+    "price": 11710,
+    "description": "8GB DDR5 5200MHz memory module for gaming and performance",
+    "stock": 39,
+    "image": "https://example.com/images/samsung-fury.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "5200MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "SAM3882FU",
+    "releaseDate": "2022-03-03T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston Fury 8GB DDR5",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 36639,
+    "description": "8GB DDR5 4400MHz memory module for gaming and performance",
+    "stock": 1,
+    "image": "https://example.com/images/kingston-fury.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "4400MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "KIN3280FU",
+    "releaseDate": "2022-09-29T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston Fury 32GB DDR4",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 17768,
+    "description": "32GB DDR4 3000MHz memory module for gaming and performance",
+    "stock": 29,
+    "image": "https://example.com/images/kingston-fury.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3000MHz",
+      "type": "DDR4",
+      "voltage": "1.35V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "KIN7897FU",
+    "releaseDate": "2024-12-17T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair Predator 32GB DDR4",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 42773,
+    "description": "32GB DDR4 3200MHz memory module for gaming and performance",
+    "stock": 49,
+    "image": "https://example.com/images/corsair-predator.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3200MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "COR8258PR",
+    "releaseDate": "2024-11-20T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston Predator 16GB DDR5",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 73947,
+    "description": "16GB DDR5 5200MHz memory module for gaming and performance",
+    "stock": 50,
+    "image": "https://example.com/images/kingston-predator.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "5200MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "KIN8877PR",
+    "releaseDate": "2024-02-04T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair Vengeance 16GB DDR4",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 17697,
+    "description": "16GB DDR4 4000MHz memory module for gaming and performance",
+    "stock": 34,
+    "image": "https://example.com/images/corsair-vengeance.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "4000MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "COR9529VE",
+    "releaseDate": "2024-10-20T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Samsung Predator 32GB DDR5",
+    "brand": "Samsung",
+    "type": "RAM",
+    "price": 66845,
+    "description": "32GB DDR5 3600MHz memory module for gaming and performance",
+    "stock": 38,
+    "image": "https://example.com/images/samsung-predator.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3600MHz",
+      "type": "DDR5",
+      "voltage": "1.2V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "SAM6384PR",
+    "releaseDate": "2023-08-23T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Samsung XPG 16GB DDR5",
+    "brand": "Samsung",
+    "type": "RAM",
+    "price": 18951,
+    "description": "16GB DDR5 4800MHz memory module for gaming and performance",
+    "stock": 18,
+    "image": "https://example.com/images/samsung-xpg.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "SAM3085XP",
+    "releaseDate": "2021-10-07T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Elite 32GB DDR5",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 44977,
+    "description": "32GB DDR5 3000MHz memory module for gaming and performance",
+    "stock": 7,
+    "image": "https://example.com/images/hyperx-elite.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3000MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "HYP2756EL",
+    "releaseDate": "2023-09-30T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Elite 32GB DDR5",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 47072,
+    "description": "32GB DDR5 3000MHz memory module for gaming and performance",
+    "stock": 40,
+    "image": "https://example.com/images/hyperx-elite.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3000MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "HYP9094EL",
+    "releaseDate": "2020-05-09T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ADATA T-Force 64GB DDR4",
+    "brand": "ADATA",
+    "type": "RAM",
+    "price": 47509,
+    "description": "64GB DDR4 5200MHz memory module for gaming and performance",
+    "stock": 30,
+    "image": "https://example.com/images/adata-t-force.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "5200MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "ADA2224T-",
+    "releaseDate": "2024-02-25T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup XPG 16GB DDR4",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 54948,
+    "description": "16GB DDR4 3200MHz memory module for gaming and performance",
+    "stock": 8,
+    "image": "https://example.com/images/teamgroup-xpg.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "3200MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "TEA9509XP",
+    "releaseDate": "2021-05-15T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston Vengeance 64GB DDR4",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 76066,
+    "description": "64GB DDR4 3600MHz memory module for gaming and performance",
+    "stock": 46,
+    "image": "https://example.com/images/kingston-vengeance.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3600MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "KIN7021VE",
+    "releaseDate": "2020-06-02T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "PNY Elite 64GB DDR4",
+    "brand": "PNY",
+    "type": "RAM",
+    "price": 18955,
+    "description": "64GB DDR4 5200MHz memory module for gaming and performance",
+    "stock": 21,
+    "image": "https://example.com/images/pny-elite.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "5200MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "PNY2436EL",
+    "releaseDate": "2024-12-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Fury 32GB DDR4",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 19889,
+    "description": "32GB DDR4 3600MHz memory module for gaming and performance",
+    "stock": 25,
+    "image": "https://example.com/images/hyperx-fury.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3600MHz",
+      "type": "DDR4",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "HYP6069FU",
+    "releaseDate": "2020-09-21T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Patriot Fury 64GB DDR5",
+    "brand": "Patriot",
+    "type": "RAM",
+    "price": 50076,
+    "description": "64GB DDR5 2666MHz memory module for gaming and performance",
+    "stock": 34,
+    "image": "https://example.com/images/patriot-fury.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "2666MHz",
+      "type": "DDR5",
+      "voltage": "1.2V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "PAT8820FU",
+    "releaseDate": "2020-03-06T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Patriot Vengeance 64GB DDR4",
+    "brand": "Patriot",
+    "type": "RAM",
+    "price": 65718,
+    "description": "64GB DDR4 4400MHz memory module for gaming and performance",
+    "stock": 2,
+    "image": "https://example.com/images/patriot-vengeance.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "4400MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "PAT8447VE",
+    "releaseDate": "2020-01-24T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Delta 16GB DDR4",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 75441,
+    "description": "16GB DDR4 4400MHz memory module for gaming and performance",
+    "stock": 2,
+    "image": "https://example.com/images/teamgroup-delta.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "4400MHz",
+      "type": "DDR4",
+      "voltage": "1.35V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "TEA1314DE",
+    "releaseDate": "2020-06-21T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX XPG 64GB DDR5",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 66697,
+    "description": "64GB DDR5 3200MHz memory module for gaming and performance",
+    "stock": 22,
+    "image": "https://example.com/images/hyperx-xpg.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3200MHz",
+      "type": "DDR5",
+      "voltage": "1.2V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "HYP8503XP",
+    "releaseDate": "2021-06-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup XPG 16GB DDR4",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 15609,
+    "description": "16GB DDR4 3200MHz memory module for gaming and performance",
+    "stock": 31,
+    "image": "https://example.com/images/teamgroup-xpg.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "3200MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "TEA1352XP",
+    "releaseDate": "2020-03-14T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Vengeance 64GB DDR5",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 52661,
+    "description": "64GB DDR5 4400MHz memory module for gaming and performance",
+    "stock": 40,
+    "image": "https://example.com/images/hyperx-vengeance.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "4400MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "HYP5551VE",
+    "releaseDate": "2020-05-04T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill Ripjaws 64GB DDR5",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 34169,
+    "description": "64GB DDR5 4400MHz memory module for gaming and performance",
+    "stock": 15,
+    "image": "https://example.com/images/g.skill-ripjaws.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "4400MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "G.S2727RI",
+    "releaseDate": "2022-07-14T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Samsung T-Force 64GB DDR5",
+    "brand": "Samsung",
+    "type": "RAM",
+    "price": 77893,
+    "description": "64GB DDR5 3000MHz memory module for gaming and performance",
+    "stock": 7,
+    "image": "https://example.com/images/samsung-t-force.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3000MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "SAM8725T-",
+    "releaseDate": "2022-03-29T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Ballistix 64GB DDR4",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 56316,
+    "description": "64GB DDR4 3000MHz memory module for gaming and performance",
+    "stock": 30,
+    "image": "https://example.com/images/hyperx-ballistix.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3000MHz",
+      "type": "DDR4",
+      "voltage": "1.4V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "HYP1143BA",
+    "releaseDate": "2021-05-09T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Samsung XPG 16GB DDR5",
+    "brand": "Samsung",
+    "type": "RAM",
+    "price": 16866,
+    "description": "16GB DDR5 2666MHz memory module for gaming and performance",
+    "stock": 6,
+    "image": "https://example.com/images/samsung-xpg.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "2666MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "SAM8956XP",
+    "releaseDate": "2024-05-14T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Fury 8GB DDR4",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 51261,
+    "description": "8GB DDR4 4000MHz memory module for gaming and performance",
+    "stock": 37,
+    "image": "https://example.com/images/teamgroup-fury.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "4000MHz",
+      "type": "DDR4",
+      "voltage": "1.35V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "TEA5620FU",
+    "releaseDate": "2021-08-30T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston Elite 32GB DDR5",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 17264,
+    "description": "32GB DDR5 5200MHz memory module for gaming and performance",
+    "stock": 25,
+    "image": "https://example.com/images/kingston-elite.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "5200MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "KIN9767EL",
+    "releaseDate": "2021-05-10T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ADATA Predator 8GB DDR5",
+    "brand": "ADATA",
+    "type": "RAM",
+    "price": 52341,
+    "description": "8GB DDR5 3000MHz memory module for gaming and performance",
+    "stock": 14,
+    "image": "https://example.com/images/adata-predator.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "3000MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "ADA2389PR",
+    "releaseDate": "2022-03-20T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "PNY Ballistix 8GB DDR5",
+    "brand": "PNY",
+    "type": "RAM",
+    "price": 24954,
+    "description": "8GB DDR5 4800MHz memory module for gaming and performance",
+    "stock": 8,
+    "image": "https://example.com/images/pny-ballistix.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "PNY9604BA",
+    "releaseDate": "2022-12-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Crucial Vengeance 16GB DDR4",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 16239,
+    "description": "16GB DDR4 4800MHz memory module for gaming and performance",
+    "stock": 8,
+    "image": "https://example.com/images/crucial-vengeance.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "4800MHz",
+      "type": "DDR4",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "CRU5715VE",
+    "releaseDate": "2022-08-15T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill Predator 32GB DDR4",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 22056,
+    "description": "32GB DDR4 4400MHz memory module for gaming and performance",
+    "stock": 7,
+    "image": "https://example.com/images/g.skill-predator.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "4400MHz",
+      "type": "DDR4",
+      "voltage": "1.2V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "G.S1481PR",
+    "releaseDate": "2023-10-03T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ADATA Elite 32GB DDR5",
+    "brand": "ADATA",
+    "type": "RAM",
+    "price": 43201,
+    "description": "32GB DDR5 5200MHz memory module for gaming and performance",
+    "stock": 9,
+    "image": "https://example.com/images/adata-elite.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "5200MHz",
+      "type": "DDR5",
+      "voltage": "1.2V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "ADA2984EL",
+    "releaseDate": "2024-02-27T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Crucial Elite 8GB DDR5",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 41774,
+    "description": "8GB DDR5 4800MHz memory module for gaming and performance",
+    "stock": 23,
+    "image": "https://example.com/images/crucial-elite.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.2V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "CRU5366EL",
+    "releaseDate": "2024-01-21T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Delta 32GB DDR4",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 65177,
+    "description": "32GB DDR4 4400MHz memory module for gaming and performance",
+    "stock": 15,
+    "image": "https://example.com/images/teamgroup-delta.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "4400MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "TEA4119DE",
+    "releaseDate": "2022-12-27T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Patriot Vengeance 32GB DDR5",
+    "brand": "Patriot",
+    "type": "RAM",
+    "price": 29829,
+    "description": "32GB DDR5 5200MHz memory module for gaming and performance",
+    "stock": 12,
+    "image": "https://example.com/images/patriot-vengeance.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "5200MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "PAT1661VE",
+    "releaseDate": "2024-09-04T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Vengeance 8GB DDR5",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 31884,
+    "description": "8GB DDR5 4800MHz memory module for gaming and performance",
+    "stock": 17,
+    "image": "https://example.com/images/teamgroup-vengeance.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "TEA8011VE",
+    "releaseDate": "2021-08-28T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair T-Force 32GB DDR5",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 36111,
+    "description": "32GB DDR5 2666MHz memory module for gaming and performance",
+    "stock": 35,
+    "image": "https://example.com/images/corsair-t-force.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "2666MHz",
+      "type": "DDR5",
+      "voltage": "1.4V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "COR8491T-",
+    "releaseDate": "2023-12-03T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Fury 64GB DDR5",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 59915,
+    "description": "64GB DDR5 3200MHz memory module for gaming and performance",
+    "stock": 41,
+    "image": "https://example.com/images/hyperx-fury.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3200MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "HYP8078FU",
+    "releaseDate": "2020-09-07T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ADATA Viper 8GB DDR4",
+    "brand": "ADATA",
+    "type": "RAM",
+    "price": 56566,
+    "description": "8GB DDR4 3000MHz memory module for gaming and performance",
+    "stock": 3,
+    "image": "https://example.com/images/adata-viper.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "3000MHz",
+      "type": "DDR4",
+      "voltage": "1.35V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "ADA7033VI",
+    "releaseDate": "2022-06-03T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Crucial Fury 8GB DDR4",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 32004,
+    "description": "8GB DDR4 2666MHz memory module for gaming and performance",
+    "stock": 25,
+    "image": "https://example.com/images/crucial-fury.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "2666MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "CRU3741FU",
+    "releaseDate": "2022-07-01T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX T-Force 8GB DDR4",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 15160,
+    "description": "8GB DDR4 4800MHz memory module for gaming and performance",
+    "stock": 28,
+    "image": "https://example.com/images/hyperx-t-force.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "4800MHz",
+      "type": "DDR4",
+      "voltage": "1.35V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "HYP2243T-",
+    "releaseDate": "2022-07-02T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Fury 64GB DDR5",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 75772,
+    "description": "64GB DDR5 4400MHz memory module for gaming and performance",
+    "stock": 26,
+    "image": "https://example.com/images/hyperx-fury.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "4400MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "HYP8855FU",
+    "releaseDate": "2022-09-13T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "PNY Ripjaws 32GB DDR4",
+    "brand": "PNY",
+    "type": "RAM",
+    "price": 55540,
+    "description": "32GB DDR4 4000MHz memory module for gaming and performance",
+    "stock": 0,
+    "image": "https://example.com/images/pny-ripjaws.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "4000MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "PNY7981RI",
+    "releaseDate": "2021-11-23T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill Ripjaws 16GB DDR4",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 11027,
+    "description": "16GB DDR4 5200MHz memory module for gaming and performance",
+    "stock": 25,
+    "image": "https://example.com/images/g.skill-ripjaws.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "5200MHz",
+      "type": "DDR4",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "G.S8404RI",
+    "releaseDate": "2020-05-09T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "HyperX Vengeance 8GB DDR5",
+    "brand": "HyperX",
+    "type": "RAM",
+    "price": 28984,
+    "description": "8GB DDR5 4800MHz memory module for gaming and performance",
+    "stock": 45,
+    "image": "https://example.com/images/hyperx-vengeance.jpg",
+    "specs": {
+      "capacity": "8GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.2V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "HYP3484VE",
+    "releaseDate": "2020-01-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "PNY T-Force 16GB DDR5",
+    "brand": "PNY",
+    "type": "RAM",
+    "price": 32358,
+    "description": "16GB DDR5 3600MHz memory module for gaming and performance",
+    "stock": 21,
+    "image": "https://example.com/images/pny-t-force.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "3600MHz",
+      "type": "DDR5",
+      "voltage": "1.2V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "PNY4135T-",
+    "releaseDate": "2020-02-28T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill Delta 32GB DDR5",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 71516,
+    "description": "32GB DDR5 3600MHz memory module for gaming and performance",
+    "stock": 43,
+    "image": "https://example.com/images/g.skill-delta.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3600MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "G.S1348DE",
+    "releaseDate": "2021-01-16T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Delta 32GB DDR5",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 34911,
+    "description": "32GB DDR5 3600MHz memory module for gaming and performance",
+    "stock": 37,
+    "image": "https://example.com/images/teamgroup-delta.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3600MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "TEA2032DE",
+    "releaseDate": "2022-08-27T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston T-Force 16GB DDR4",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 52653,
+    "description": "16GB DDR4 4400MHz memory module for gaming and performance",
+    "stock": 28,
+    "image": "https://example.com/images/kingston-t-force.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "4400MHz",
+      "type": "DDR4",
+      "voltage": "1.35V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "KIN8050T-",
+    "releaseDate": "2024-01-12T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "PNY Predator 64GB DDR4",
+    "brand": "PNY",
+    "type": "RAM",
+    "price": 37570,
+    "description": "64GB DDR4 3200MHz memory module for gaming and performance",
+    "stock": 17,
+    "image": "https://example.com/images/pny-predator.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3200MHz",
+      "type": "DDR4",
+      "voltage": "1.4V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "PNY2467PR",
+    "releaseDate": "2023-09-24T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Crucial Ripjaws 64GB DDR5",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 37591,
+    "description": "64GB DDR5 4800MHz memory module for gaming and performance",
+    "stock": 47,
+    "image": "https://example.com/images/crucial-ripjaws.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "CRU8239RI",
+    "releaseDate": "2021-12-07T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Crucial T-Force 32GB DDR5",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 76740,
+    "description": "32GB DDR5 3200MHz memory module for gaming and performance",
+    "stock": 22,
+    "image": "https://example.com/images/crucial-t-force.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "3200MHz",
+      "type": "DDR5",
+      "voltage": "1.5V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "CRU3968T-",
+    "releaseDate": "2023-07-03T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "PNY Fury 16GB DDR4",
+    "brand": "PNY",
+    "type": "RAM",
+    "price": 73396,
+    "description": "16GB DDR4 5200MHz memory module for gaming and performance",
+    "stock": 37,
+    "image": "https://example.com/images/pny-fury.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "5200MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "PNY9350FU",
+    "releaseDate": "2022-08-31T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup Elite 32GB DDR5",
+    "brand": "TeamGroup",
+    "type": "RAM",
+    "price": 23944,
+    "description": "32GB DDR5 4000MHz memory module for gaming and performance",
+    "stock": 8,
+    "image": "https://example.com/images/teamgroup-elite.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "4000MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "TEA1336EL",
+    "releaseDate": "2021-03-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston T-Force 32GB DDR4",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 36006,
+    "description": "32GB DDR4 2666MHz memory module for gaming and performance",
+    "stock": 3,
+    "image": "https://example.com/images/kingston-t-force.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "2666MHz",
+      "type": "DDR4",
+      "voltage": "1.5V"
+    },
+    "warranty": "5 years",
+    "modelNumber": "KIN5114T-",
+    "releaseDate": "2021-12-06T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ADATA Predator 64GB DDR5",
+    "brand": "ADATA",
+    "type": "RAM",
+    "price": 73107,
+    "description": "64GB DDR5 3200MHz memory module for gaming and performance",
+    "stock": 24,
+    "image": "https://example.com/images/adata-predator.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3200MHz",
+      "type": "DDR5",
+      "voltage": "1.35V"
+    },
+    "warranty": "2 years",
+    "modelNumber": "ADA5300PR",
+    "releaseDate": "2023-04-02T00:00:00",
+    "inStock": true
+  }
+]
