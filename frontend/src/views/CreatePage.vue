@@ -42,7 +42,7 @@
       </label>
       <button
         type="submit"
-        class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 cursor-pointer"
+        class="border-2 font-bold text-blue-500 rounded-lg p-1 cursor-pointer hover:bg-blue-500 hover:text-white hover:border-gray-400"
       >
         Create
       </button>
@@ -53,45 +53,45 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
 const form = ref({
-  name: '',
-  brand: '',
-  type: '',
+  name: "",
+  brand: "",
+  type: "",
   price: null,
-  description: '',
-  image: '',
-  stock: '',
-  warranty: '',
-  modelNumber: '',
-  releasedate: '',
+  description: "",
+  image: "",
+  stock: "",
+  warranty: "",
+  modelNumber: "",
+  releaseDate: "",
   inStock: false,
-})
+});
 
-const error = ref('')
-const success = ref(false)
+const error = ref("");
+const success = ref(false);
 
 async function handleSubmit() {
-  error.value = ''
-  success.value = false
+  error.value = "";
+  success.value = false;
   try {
-    const res = await fetch('http://localhost:3333/api/products', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+    const res = await fetch("http://localhost:3333/api/products", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form.value),
-    })
+    });
 
-    const data = await res.json()
-    if (!res.ok) throw new Error(data.message || 'Failed to create product!')
-    success.value = true
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.message || "Failed to create product!");
+    success.value = true;
     Object.keys(form.value).forEach(
-      (key) => (form.value[key] = typeof form.value[key] === 'boolean' ? false : '')
-    )
-    form.value.stock = 0
-    form.value.price = null
+      (key) => (form.value[key] = typeof form.value[key] === "boolean" ? false : "")
+    );
+    form.value.stock = 0;
+    form.value.price = null;
   } catch (error) {
-    error.value = error.message
+    error.value = error.message;
   }
 }
 </script>
