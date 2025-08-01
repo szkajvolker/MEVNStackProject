@@ -1,5 +1,75 @@
-# Vue 3 + Vite
+# MEVN Stack Project
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ez egy modern, teljes stack alkalmazás Vue 3 + Vite frontenddel és Node.js/Express + MongoDB backenden.  
+A projekt célja egy egyszerű webáruház, ahol regisztráció, bejelentkezés, termékek böngészése, kosárba helyezés és rendelés leadása is lehetséges.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Főbb technológiák
+
+- **Frontend:** Vue 3, Vite, Pinia, TailwindCSS
+- **Backend:** Node.js, Express, MongoDB, Mongoose
+- **Autentikáció:** JWT token alapú
+- **Stílus:** TailwindCSS
+
+## Fő funkciók
+
+- Felhasználói regisztráció és bejelentkezés
+- Termékek listázása, részletek megtekintése
+- Kosár funkció (termékek hozzáadása, törlése, mennyiség módosítása)
+- Rendelés leadása, rendelési státuszok
+- Admin jogosultság: termékek törlése
+
+## Fejlesztői indítás
+
+### Frontend
+
+```sh
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend
+
+```sh
+cd backend
+npm install
+npm run dev
+```
+
+### Adatbázis seedelés
+
+```sh
+cd backend
+node seed/seedProduct.js
+```
+
+## Mappastruktúra
+
+```
+frontend/
+  src/
+    components/
+    views/
+    stores/
+backend/
+  models/
+  controllers/
+  routes/
+  seed/
+```
+
+## Képernyőképek
+
+> Ide illessz be néhány screenshotot a működő alkalmazásról!
+
+## További információk
+
+- [Vue 3 dokumentáció](https://vuejs.org/)
+- [Vite dokumentáció](https://vitejs.dev/)
+- [Express dokumentáció](https://expressjs.com/)
+- [MongoDB dokumentáció](https://www.mongodb.com/docs/)
+
+---
+
+**Készítette:**  
+Szabo Istvan
