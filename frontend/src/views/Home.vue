@@ -1,6 +1,17 @@
 <template>
-  <div>
-    <h1>Welcome to the home page</h1>
+  <div class="flex justify-end mr-5 mt-5">
+    <ShowCartBtn v-if="!showCart" :showCart="showCart" @toggle-cart="showCart = !showCart" />
+  </div>
+  <div class="mt-20 relative">
+    <transition name="slide-right">
+      <div
+        v-if="showCart"
+        class="fixed top-0 mt-18 right-0 h-full w-80 z-50 flex justify-end"
+        style="background: rgba(0, 0, 0, 0.2)"
+      >
+        <Cart :showCart="showCart" @toggle-cart="showCart = !showCart" class="h-full" />
+      </div>
+    </transition>
     <div v-if="!auth.isLoggedIn">
       <Register />
     </div>
@@ -31,12 +42,15 @@ import ProductCard from "../components/ProductCard.vue";
 import ProductModal from "../components/ProductModal.vue";
 import { useAuthStore } from "../stores/auth";
 import Register from "./Register.vue";
+import Cart from "../components/Cart.vue";
+import ShowCartBtn from "../components/ShowCartBtn.vue";
 
 const products = ref([]);
 const loading = ref(true);
 const error = ref("");
 const showModal = ref(false);
 const auth = useAuthStore();
+const showCart = ref(false);
 
 onMounted(async () => {
   loading.value = true;
@@ -78,3 +92,20 @@ function openModal(product) {
   showModal.value = true;
 }
 </script>
+
+<style scoped>
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s;
+}
+.slide-right-enter-from,
+.slide-right-leave-to {
+  transform: translateX(100%);
+  opacity: 0;
+}
+.slide-right-enter-to,
+.slide-right-leave-from {
+  transform: translateX(0);
+  opacity: 1;
+}
+</style>

@@ -28,7 +28,7 @@
       </button>
       <button
         class="border-2 font-bold text-green-500 rounded-lg p-1 cursor-pointer hover:bg-green-500 hover:text-white hover:border-gray-400"
-        @click="$emit('add-to-cart', product)"
+        @click="addToCart"
       >
         Add to cart
       </button>
@@ -38,9 +38,14 @@
 
 <script setup>
 import { useAuthStore } from "../stores/auth";
+import { useCartStore } from "../stores/cart";
 
 const auth = useAuthStore();
-defineProps({
+const cart = useCartStore();
+const props = defineProps({
   product: Object,
 });
+const addToCart = () => {
+  cart.addToCart(props.product);
+};
 </script>
