@@ -1,1902 +1,1827 @@
 [
   {
-    "name": "Corsair T-Force 64GB DDR4",
-    "brand": "Corsair",
+    "name": "Patriot RAM Model 618",
+    "brand": "Patriot",
     "type": "RAM",
-    "price": 28410,
-    "description": "64GB DDR4 5200MHz memory module for gaming and performance",
-    "stock": 40,
-    "image": "https://example.com/images/corsair-t-force.jpg",
+    "price": 69404,
+    "description": "Patriot RAM Model 618 for high-performance computing.",
+    "stock": 1,
+    "image": "https://example.com/images/patriot_ram_0.jpg",
     "specs": {
-      "capacity": "64GB",
-      "speed": "5200MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
+      "capacity": "8GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.30V"
+    },
+    "warranty": "1 year",
+    "modelNumber": "PAT3486",
+    "releaseDate": "2020-08-27T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ASUS Motherboard Model 481",
+    "brand": "ASUS",
+    "type": "Motherboard",
+    "price": 39353,
+    "description": "ASUS Motherboard Model 481 for high-performance computing.",
+    "stock": 2,
+    "image": "https://example.com/images/asus_motherboard_1.jpg",
+    "specs": {
+      "chipset": "X670",
+      "socket": "LGA1700",
+      "formFactor": "Micro-ATX"
+    },
+    "warranty": "3 years",
+    "modelNumber": "ASU8582",
+    "releaseDate": "2024-08-08T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Sony Camera Model 745",
+    "brand": "Sony",
+    "type": "Camera",
+    "price": 232252,
+    "description": "Sony Camera Model 745 for high-performance computing.",
+    "stock": 11,
+    "image": "https://example.com/images/sony_camera_2.jpg",
+    "specs": {
+      "resolution": "24MP",
+      "sensor": "Micro Four Thirds",
+      "video": "4K"
+    },
+    "warranty": "3 years",
+    "modelNumber": "SON1729",
+    "releaseDate": "2020-11-30T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Intel CPU Model 847",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 218072,
+    "description": "Intel CPU Model 847 for high-performance computing.",
+    "stock": 9,
+    "image": "https://example.com/images/intel_cpu_3.jpg",
+    "specs": {
+      "cores": 12,
+      "threads": 8,
+      "baseClock": "3.72GHz",
+      "boostClock": "4.59GHz"
+    },
+    "warranty": "2 years",
+    "modelNumber": "INT2648",
+    "releaseDate": "2021-11-24T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Gigabyte Motherboard Model 359",
+    "brand": "Gigabyte",
+    "type": "Motherboard",
+    "price": 151675,
+    "description": "Gigabyte Motherboard Model 359 for high-performance computing.",
+    "stock": 1,
+    "image": "https://example.com/images/gigabyte_motherboard_4.jpg",
+    "specs": {
+      "chipset": "X670",
+      "socket": "LGA1700",
+      "formFactor": "ATX"
+    },
+    "warranty": "2 years",
+    "modelNumber": "GIG4925",
+    "releaseDate": "2022-10-31T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "SteelSeries Keyboard Model 864",
+    "brand": "SteelSeries",
+    "type": "Keyboard",
+    "price": 36015,
+    "description": "SteelSeries Keyboard Model 864 for high-performance computing.",
+    "stock": 11,
+    "image": "https://example.com/images/steelseries_keyboard_5.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Blue",
+      "backlight": "None"
+    },
+    "warranty": "2 years",
+    "modelNumber": "STE8490",
+    "releaseDate": "2023-05-16T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Sennheiser Audio Model 920",
+    "brand": "Sennheiser",
+    "type": "Audio",
+    "price": 64454,
+    "description": "Sennheiser Audio Model 920 for high-performance computing.",
+    "stock": 12,
+    "image": "https://example.com/images/sennheiser_audio_6.jpg",
+    "specs": {
+      "type": "Earbuds",
+      "connectivity": "Wired",
+      "noiseCancelling": "Yes"
+    },
+    "warranty": "3 years",
+    "modelNumber": "SEN3328",
+    "releaseDate": "2022-03-11T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ASRock Motherboard Model 431",
+    "brand": "ASRock",
+    "type": "Motherboard",
+    "price": 43839,
+    "description": "ASRock Motherboard Model 431 for high-performance computing.",
+    "stock": 15,
+    "image": "https://example.com/images/asrock_motherboard_7.jpg",
+    "specs": {
+      "chipset": "X670",
+      "socket": "LGA1700",
+      "formFactor": "ATX"
+    },
+    "warranty": "1 year",
+    "modelNumber": "ASR9822",
+    "releaseDate": "2021-09-28T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Panasonic Camera Model 824",
+    "brand": "Panasonic",
+    "type": "Camera",
+    "price": 192503,
+    "description": "Panasonic Camera Model 824 for high-performance computing.",
+    "stock": 7,
+    "image": "https://example.com/images/panasonic_camera_8.jpg",
+    "specs": {
+      "resolution": "32MP",
+      "sensor": "Full Frame",
+      "video": "1080p"
     },
     "warranty": "Limited lifetime",
-    "modelNumber": "COR6545T-",
-    "releaseDate": "2022-07-18T00:00:00",
+    "modelNumber": "PAN7559",
+    "releaseDate": "2022-06-04T00:00:00",
     "inStock": true
   },
   {
-    "name": "Crucial Vengeance 32GB DDR5",
-    "brand": "Crucial",
-    "type": "RAM",
-    "price": 12724,
-    "description": "32GB DDR5 4000MHz memory module for gaming and performance",
-    "stock": 28,
-    "image": "https://example.com/images/crucial-vengeance.jpg",
+    "name": "AMD GPU Model 512",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 75925,
+    "description": "AMD GPU Model 512 for high-performance computing.",
+    "stock": 18,
+    "image": "https://example.com/images/amd_gpu_9.jpg",
     "specs": {
-      "capacity": "32GB",
-      "speed": "4000MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
+      "vram": "6GB",
+      "chipset": "RX 6700 XT",
+      "memoryType": "GDDR6X"
     },
-    "warranty": "5 years",
-    "modelNumber": "CRU9499VE",
-    "releaseDate": "2022-02-16T00:00:00",
+    "warranty": "Limited lifetime",
+    "modelNumber": "AMD2372",
+    "releaseDate": "2023-09-19T00:00:00",
     "inStock": true
   },
   {
-    "name": "ADATA Fury 32GB DDR5",
-    "brand": "ADATA",
-    "type": "RAM",
-    "price": 30561,
-    "description": "32GB DDR5 3600MHz memory module for gaming and performance",
-    "stock": 32,
-    "image": "https://example.com/images/adata-fury.jpg",
+    "name": "AMD GPU Model 545",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 182774,
+    "description": "AMD GPU Model 545 for high-performance computing.",
+    "stock": 0,
+    "image": "https://example.com/images/amd_gpu_10.jpg",
     "specs": {
-      "capacity": "32GB",
+      "vram": "12GB",
+      "chipset": "RTX 3060",
+      "memoryType": "GDDR6"
+    },
+    "warranty": "2 years",
+    "modelNumber": "AMD3488",
+    "releaseDate": "2023-12-31T00:00:00",
+    "inStock": false
+  },
+  {
+    "name": "Razer Keyboard Model 560",
+    "brand": "Razer",
+    "type": "Keyboard",
+    "price": 48801,
+    "description": "Razer Keyboard Model 560 for high-performance computing.",
+    "stock": 20,
+    "image": "https://example.com/images/razer_keyboard_11.jpg",
+    "specs": {
+      "type": "Membrane",
+      "switchType": "Red",
+      "backlight": "RGB"
+    },
+    "warranty": "2 years",
+    "modelNumber": "RAZ9414",
+    "releaseDate": "2021-05-17T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Intel CPU Model 758",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 198946,
+    "description": "Intel CPU Model 758 for high-performance computing.",
+    "stock": 10,
+    "image": "https://example.com/images/intel_cpu_12.jpg",
+    "specs": {
+      "cores": 6,
+      "threads": 16,
+      "baseClock": "3.86GHz",
+      "boostClock": "5.08GHz"
+    },
+    "warranty": "2 years",
+    "modelNumber": "INT5651",
+    "releaseDate": "2021-11-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Sony Camera Model 512",
+    "brand": "Sony",
+    "type": "Camera",
+    "price": 239029,
+    "description": "Sony Camera Model 512 for high-performance computing.",
+    "stock": 13,
+    "image": "https://example.com/images/sony_camera_13.jpg",
+    "specs": {
+      "resolution": "20MP",
+      "sensor": "Micro Four Thirds",
+      "video": "4K"
+    },
+    "warranty": "1 year",
+    "modelNumber": "SON3949",
+    "releaseDate": "2023-07-23T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill RAM Model 308",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 197617,
+    "description": "G.Skill RAM Model 308 for high-performance computing.",
+    "stock": 2,
+    "image": "https://example.com/images/g.skill_ram_14.jpg",
+    "specs": {
+      "capacity": "8GB",
       "speed": "3600MHz",
       "type": "DDR5",
-      "voltage": "1.35V"
+      "voltage": "1.21V"
     },
-    "warranty": "5 years",
-    "modelNumber": "ADA6832FU",
+    "warranty": "Limited lifetime",
+    "modelNumber": "G.S8500",
+    "releaseDate": "2020-03-02T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Logitech Audio Model 758",
+    "brand": "Logitech",
+    "type": "Audio",
+    "price": 240982,
+    "description": "Logitech Audio Model 758 for high-performance computing.",
+    "stock": 16,
+    "image": "https://example.com/images/logitech_audio_15.jpg",
+    "specs": {
+      "type": "Headphones",
+      "connectivity": "Wired",
+      "noiseCancelling": "Yes"
+    },
+    "warranty": "3 years",
+    "modelNumber": "LOG3502",
     "releaseDate": "2022-07-29T00:00:00",
     "inStock": true
   },
   {
-    "name": "Crucial Vengeance 16GB DDR5",
-    "brand": "Crucial",
-    "type": "RAM",
-    "price": 72373,
-    "description": "16GB DDR5 2666MHz memory module for gaming and performance",
-    "stock": 35,
-    "image": "https://example.com/images/crucial-vengeance.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "2666MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "CRU4065VE",
-    "releaseDate": "2024-10-23T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "PNY Delta 16GB DDR4",
-    "brand": "PNY",
-    "type": "RAM",
-    "price": 50818,
-    "description": "16GB DDR4 4800MHz memory module for gaming and performance",
-    "stock": 28,
-    "image": "https://example.com/images/pny-delta.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "4800MHz",
-      "type": "DDR4",
-      "voltage": "1.4V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "PNY5717DE",
-    "releaseDate": "2021-08-17T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Patriot T-Force 16GB DDR5",
-    "brand": "Patriot",
-    "type": "RAM",
-    "price": 59248,
-    "description": "16GB DDR5 3000MHz memory module for gaming and performance",
-    "stock": 23,
-    "image": "https://example.com/images/patriot-t-force.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "3000MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "PAT1404T-",
-    "releaseDate": "2023-12-31T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Samsung Vengeance 8GB DDR5",
-    "brand": "Samsung",
-    "type": "RAM",
-    "price": 69284,
-    "description": "8GB DDR5 2666MHz memory module for gaming and performance",
-    "stock": 26,
-    "image": "https://example.com/images/samsung-vengeance.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "2666MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "SAM5360VE",
-    "releaseDate": "2021-11-01T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Patriot Ballistix 8GB DDR4",
-    "brand": "Patriot",
-    "type": "RAM",
-    "price": 60563,
-    "description": "8GB DDR4 3600MHz memory module for gaming and performance",
-    "stock": 20,
-    "image": "https://example.com/images/patriot-ballistix.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "3600MHz",
-      "type": "DDR4",
-      "voltage": "1.4V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "PAT6042BA",
-    "releaseDate": "2020-04-05T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "G.Skill Fury 8GB DDR4",
-    "brand": "G.Skill",
-    "type": "RAM",
-    "price": 68545,
-    "description": "8GB DDR4 4800MHz memory module for gaming and performance",
-    "stock": 40,
-    "image": "https://example.com/images/g.skill-fury.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "4800MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "G.S9837FU",
-    "releaseDate": "2023-01-31T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "PNY Ripjaws 64GB DDR5",
-    "brand": "PNY",
-    "type": "RAM",
-    "price": 27307,
-    "description": "64GB DDR5 4400MHz memory module for gaming and performance",
-    "stock": 26,
-    "image": "https://example.com/images/pny-ripjaws.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "4400MHz",
-      "type": "DDR5",
-      "voltage": "1.2V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "PNY6541RI",
-    "releaseDate": "2023-10-18T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Corsair T-Force 64GB DDR5",
-    "brand": "Corsair",
-    "type": "RAM",
-    "price": 61673,
-    "description": "64GB DDR5 3600MHz memory module for gaming and performance",
-    "stock": 11,
-    "image": "https://example.com/images/corsair-t-force.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "3600MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "COR9998T-",
-    "releaseDate": "2024-08-09T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Corsair XPG 8GB DDR5",
-    "brand": "Corsair",
-    "type": "RAM",
-    "price": 55273,
-    "description": "8GB DDR5 3000MHz memory module for gaming and performance",
-    "stock": 25,
-    "image": "https://example.com/images/corsair-xpg.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "3000MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "COR3930XP",
-    "releaseDate": "2020-04-11T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Samsung Fury 16GB DDR5",
-    "brand": "Samsung",
-    "type": "RAM",
-    "price": 63932,
-    "description": "16GB DDR5 4800MHz memory module for gaming and performance",
-    "stock": 14,
-    "image": "https://example.com/images/samsung-fury.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "4800MHz",
-      "type": "DDR5",
-      "voltage": "1.2V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "SAM7641FU",
-    "releaseDate": "2024-12-21T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup Ripjaws 32GB DDR4",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 33483,
-    "description": "32GB DDR4 3200MHz memory module for gaming and performance",
-    "stock": 47,
-    "image": "https://example.com/images/teamgroup-ripjaws.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3200MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "TEA5655RI",
-    "releaseDate": "2021-09-23T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "PNY Vengeance 8GB DDR4",
-    "brand": "PNY",
-    "type": "RAM",
-    "price": 67733,
-    "description": "8GB DDR4 3000MHz memory module for gaming and performance",
-    "stock": 21,
-    "image": "https://example.com/images/pny-vengeance.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "3000MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "PNY3936VE",
-    "releaseDate": "2021-05-16T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Kingston Viper 64GB DDR5",
-    "brand": "Kingston",
-    "type": "RAM",
-    "price": 33250,
-    "description": "64GB DDR5 3000MHz memory module for gaming and performance",
-    "stock": 29,
-    "image": "https://example.com/images/kingston-viper.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "3000MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "KIN3312VI",
-    "releaseDate": "2022-08-28T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup Ripjaws 64GB DDR5",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 51856,
-    "description": "64GB DDR5 3600MHz memory module for gaming and performance",
-    "stock": 16,
-    "image": "https://example.com/images/teamgroup-ripjaws.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "3600MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "TEA9564RI",
-    "releaseDate": "2022-04-29T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Crucial T-Force 8GB DDR4",
-    "brand": "Crucial",
-    "type": "RAM",
-    "price": 76090,
-    "description": "8GB DDR4 3000MHz memory module for gaming and performance",
-    "stock": 6,
-    "image": "https://example.com/images/crucial-t-force.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "3000MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "CRU6311T-",
-    "releaseDate": "2022-10-25T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup Elite 64GB DDR5",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 50190,
-    "description": "64GB DDR5 4000MHz memory module for gaming and performance",
-    "stock": 5,
-    "image": "https://example.com/images/teamgroup-elite.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "4000MHz",
-      "type": "DDR5",
-      "voltage": "1.2V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "TEA9553EL",
-    "releaseDate": "2020-05-14T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Samsung Fury 64GB DDR4",
-    "brand": "Samsung",
-    "type": "RAM",
-    "price": 17446,
-    "description": "64GB DDR4 3600MHz memory module for gaming and performance",
-    "stock": 15,
-    "image": "https://example.com/images/samsung-fury.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "3600MHz",
-      "type": "DDR4",
-      "voltage": "1.4V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "SAM1447FU",
-    "releaseDate": "2023-05-20T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX T-Force 16GB DDR5",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 24675,
-    "description": "16GB DDR5 2666MHz memory module for gaming and performance",
+    "name": "NVIDIA GPU Model 460",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 194871,
+    "description": "NVIDIA GPU Model 460 for high-performance computing.",
     "stock": 17,
-    "image": "https://example.com/images/hyperx-t-force.jpg",
+    "image": "https://example.com/images/nvidia_gpu_16.jpg",
     "specs": {
-      "capacity": "16GB",
-      "speed": "2666MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
+      "vram": "12GB",
+      "chipset": "RTX 3060",
+      "memoryType": "GDDR6"
     },
-    "warranty": "Limited lifetime",
-    "modelNumber": "HYP7558T-",
-    "releaseDate": "2022-09-29T00:00:00",
+    "warranty": "2 years",
+    "modelNumber": "NVI8560",
+    "releaseDate": "2024-11-02T00:00:00",
     "inStock": true
   },
   {
-    "name": "TeamGroup Ballistix 16GB DDR5",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 57398,
-    "description": "16GB DDR5 3200MHz memory module for gaming and performance",
-    "stock": 8,
-    "image": "https://example.com/images/teamgroup-ballistix.jpg",
+    "name": "Intel CPU Model 623",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 56397,
+    "description": "Intel CPU Model 623 for high-performance computing.",
+    "stock": 10,
+    "image": "https://example.com/images/intel_cpu_17.jpg",
     "specs": {
-      "capacity": "16GB",
-      "speed": "3200MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "TEA1513BA",
-    "releaseDate": "2022-09-11T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Patriot Ballistix 16GB DDR5",
-    "brand": "Patriot",
-    "type": "RAM",
-    "price": 43470,
-    "description": "16GB DDR5 4800MHz memory module for gaming and performance",
-    "stock": 12,
-    "image": "https://example.com/images/patriot-ballistix.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "4800MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "PAT9150BA",
-    "releaseDate": "2023-07-26T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Samsung T-Force 32GB DDR4",
-    "brand": "Samsung",
-    "type": "RAM",
-    "price": 68629,
-    "description": "32GB DDR4 4000MHz memory module for gaming and performance",
-    "stock": 21,
-    "image": "https://example.com/images/samsung-t-force.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "4000MHz",
-      "type": "DDR4",
-      "voltage": "1.4V"
+      "cores": 4,
+      "threads": 24,
+      "baseClock": "2.94GHz",
+      "boostClock": "5.09GHz"
     },
     "warranty": "3 years",
-    "modelNumber": "SAM4813T-",
-    "releaseDate": "2024-12-18T00:00:00",
+    "modelNumber": "INT1851",
+    "releaseDate": "2021-04-04T00:00:00",
     "inStock": true
   },
   {
-    "name": "Patriot Ballistix 32GB DDR4",
-    "brand": "Patriot",
-    "type": "RAM",
-    "price": 50067,
-    "description": "32GB DDR4 3000MHz memory module for gaming and performance",
-    "stock": 42,
-    "image": "https://example.com/images/patriot-ballistix.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3000MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "PAT9827BA",
-    "releaseDate": "2022-07-13T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Patriot XPG 32GB DDR4",
-    "brand": "Patriot",
-    "type": "RAM",
-    "price": 44179,
-    "description": "32GB DDR4 3000MHz memory module for gaming and performance",
-    "stock": 46,
-    "image": "https://example.com/images/patriot-xpg.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3000MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "PAT2809XP",
-    "releaseDate": "2024-05-10T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "G.Skill Ripjaws 64GB DDR4",
-    "brand": "G.Skill",
-    "type": "RAM",
-    "price": 24692,
-    "description": "64GB DDR4 2666MHz memory module for gaming and performance",
-    "stock": 20,
-    "image": "https://example.com/images/g.skill-ripjaws.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "2666MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "G.S9691RI",
-    "releaseDate": "2020-09-17T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX Vengeance 32GB DDR4",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 75756,
-    "description": "32GB DDR4 4000MHz memory module for gaming and performance",
-    "stock": 30,
-    "image": "https://example.com/images/hyperx-vengeance.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "4000MHz",
-      "type": "DDR4",
-      "voltage": "1.4V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "HYP7520VE",
-    "releaseDate": "2022-07-07T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "G.Skill Viper 16GB DDR5",
-    "brand": "G.Skill",
-    "type": "RAM",
-    "price": 53511,
-    "description": "16GB DDR5 5200MHz memory module for gaming and performance",
-    "stock": 44,
-    "image": "https://example.com/images/g.skill-viper.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "5200MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "G.S9742VI",
-    "releaseDate": "2024-03-11T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX Fury 64GB DDR4",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 71970,
-    "description": "64GB DDR4 5200MHz memory module for gaming and performance",
-    "stock": 48,
-    "image": "https://example.com/images/hyperx-fury.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "5200MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "HYP3195FU",
-    "releaseDate": "2021-03-06T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX Ripjaws 16GB DDR4",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 38800,
-    "description": "16GB DDR4 3200MHz memory module for gaming and performance",
+    "name": "Logitech Audio Model 690",
+    "brand": "Logitech",
+    "type": "Audio",
+    "price": 244875,
+    "description": "Logitech Audio Model 690 for high-performance computing.",
     "stock": 2,
-    "image": "https://example.com/images/hyperx-ripjaws.jpg",
+    "image": "https://example.com/images/logitech_audio_18.jpg",
     "specs": {
-      "capacity": "16GB",
-      "speed": "3200MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "HYP8174RI",
-    "releaseDate": "2023-01-27T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Samsung Fury 64GB DDR5",
-    "brand": "Samsung",
-    "type": "RAM",
-    "price": 45687,
-    "description": "64GB DDR5 4000MHz memory module for gaming and performance",
-    "stock": 8,
-    "image": "https://example.com/images/samsung-fury.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "4000MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
+      "type": "Headphones",
+      "connectivity": "Wired",
+      "noiseCancelling": "Yes"
     },
     "warranty": "3 years",
-    "modelNumber": "SAM3304FU",
-    "releaseDate": "2022-10-02T00:00:00",
+    "modelNumber": "LOG7212",
+    "releaseDate": "2020-08-28T00:00:00",
     "inStock": true
   },
   {
-    "name": "PNY T-Force 32GB DDR5",
-    "brand": "PNY",
-    "type": "RAM",
-    "price": 72393,
-    "description": "32GB DDR5 3000MHz memory module for gaming and performance",
-    "stock": 16,
-    "image": "https://example.com/images/pny-t-force.jpg",
+    "name": "Sony Audio Model 870",
+    "brand": "Sony",
+    "type": "Audio",
+    "price": 49920,
+    "description": "Sony Audio Model 870 for high-performance computing.",
+    "stock": 0,
+    "image": "https://example.com/images/sony_audio_19.jpg",
     "specs": {
-      "capacity": "32GB",
-      "speed": "3000MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
+      "type": "Headphones",
+      "connectivity": "Wireless",
+      "noiseCancelling": "Yes"
     },
-    "warranty": "5 years",
-    "modelNumber": "PNY3451T-",
-    "releaseDate": "2023-05-18T00:00:00",
-    "inStock": true
+    "warranty": "1 year",
+    "modelNumber": "SON3125",
+    "releaseDate": "2023-07-20T00:00:00",
+    "inStock": false
   },
   {
-    "name": "Kingston XPG 16GB DDR4",
-    "brand": "Kingston",
-    "type": "RAM",
-    "price": 33572,
-    "description": "16GB DDR4 2666MHz memory module for gaming and performance",
-    "stock": 42,
-    "image": "https://example.com/images/kingston-xpg.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "2666MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "KIN2787XP",
-    "releaseDate": "2022-10-21T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "ADATA Elite 32GB DDR4",
-    "brand": "ADATA",
-    "type": "RAM",
-    "price": 76988,
-    "description": "32GB DDR4 3200MHz memory module for gaming and performance",
-    "stock": 29,
-    "image": "https://example.com/images/adata-elite.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3200MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "ADA7314EL",
-    "releaseDate": "2021-07-16T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup Ballistix 8GB DDR5",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 25852,
-    "description": "8GB DDR5 3200MHz memory module for gaming and performance",
-    "stock": 22,
-    "image": "https://example.com/images/teamgroup-ballistix.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "3200MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "TEA6625BA",
-    "releaseDate": "2021-07-01T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Crucial Fury 64GB DDR4",
-    "brand": "Crucial",
-    "type": "RAM",
-    "price": 13163,
-    "description": "64GB DDR4 3200MHz memory module for gaming and performance",
-    "stock": 13,
-    "image": "https://example.com/images/crucial-fury.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "3200MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "CRU4230FU",
-    "releaseDate": "2020-06-29T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup Ripjaws 8GB DDR4",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 31295,
-    "description": "8GB DDR4 5200MHz memory module for gaming and performance",
-    "stock": 42,
-    "image": "https://example.com/images/teamgroup-ripjaws.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "5200MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "TEA3017RI",
-    "releaseDate": "2022-10-20T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup Predator 16GB DDR4",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 40765,
-    "description": "16GB DDR4 3000MHz memory module for gaming and performance",
-    "stock": 15,
-    "image": "https://example.com/images/teamgroup-predator.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "3000MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "TEA1387PR",
-    "releaseDate": "2021-08-09T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX XPG 8GB DDR5",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 67547,
-    "description": "8GB DDR5 5200MHz memory module for gaming and performance",
-    "stock": 23,
-    "image": "https://example.com/images/hyperx-xpg.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "5200MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "HYP5299XP",
-    "releaseDate": "2023-11-24T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Patriot Ballistix 32GB DDR5",
-    "brand": "Patriot",
-    "type": "RAM",
-    "price": 27746,
-    "description": "32GB DDR5 3200MHz memory module for gaming and performance",
-    "stock": 5,
-    "image": "https://example.com/images/patriot-ballistix.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3200MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "PAT3043BA",
-    "releaseDate": "2021-07-03T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Kingston Fury 16GB DDR5",
-    "brand": "Kingston",
-    "type": "RAM",
-    "price": 64616,
-    "description": "16GB DDR5 3000MHz memory module for gaming and performance",
-    "stock": 14,
-    "image": "https://example.com/images/kingston-fury.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "3000MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "KIN1456FU",
-    "releaseDate": "2020-11-27T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "G.Skill Ballistix 8GB DDR5",
-    "brand": "G.Skill",
-    "type": "RAM",
-    "price": 24072,
-    "description": "8GB DDR5 4400MHz memory module for gaming and performance",
-    "stock": 27,
-    "image": "https://example.com/images/g.skill-ballistix.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "4400MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "G.S1553BA",
-    "releaseDate": "2022-07-14T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "ADATA Viper 32GB DDR4",
-    "brand": "ADATA",
-    "type": "RAM",
-    "price": 36639,
-    "description": "32GB DDR4 3200MHz memory module for gaming and performance",
-    "stock": 25,
-    "image": "https://example.com/images/adata-viper.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3200MHz",
-      "type": "DDR4",
-      "voltage": "1.35V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "ADA5271VI",
-    "releaseDate": "2023-11-17T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Samsung Fury 8GB DDR5",
-    "brand": "Samsung",
-    "type": "RAM",
-    "price": 11710,
-    "description": "8GB DDR5 5200MHz memory module for gaming and performance",
-    "stock": 39,
-    "image": "https://example.com/images/samsung-fury.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "5200MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "SAM3882FU",
-    "releaseDate": "2022-03-03T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Kingston Fury 8GB DDR5",
-    "brand": "Kingston",
-    "type": "RAM",
-    "price": 36639,
-    "description": "8GB DDR5 4400MHz memory module for gaming and performance",
-    "stock": 1,
-    "image": "https://example.com/images/kingston-fury.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "4400MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "KIN3280FU",
-    "releaseDate": "2022-09-29T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Kingston Fury 32GB DDR4",
-    "brand": "Kingston",
-    "type": "RAM",
-    "price": 17768,
-    "description": "32GB DDR4 3000MHz memory module for gaming and performance",
-    "stock": 29,
-    "image": "https://example.com/images/kingston-fury.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3000MHz",
-      "type": "DDR4",
-      "voltage": "1.35V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "KIN7897FU",
-    "releaseDate": "2024-12-17T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Corsair Predator 32GB DDR4",
+    "name": "Corsair Keyboard Model 540",
     "brand": "Corsair",
-    "type": "RAM",
-    "price": 42773,
-    "description": "32GB DDR4 3200MHz memory module for gaming and performance",
-    "stock": 49,
-    "image": "https://example.com/images/corsair-predator.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3200MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "COR8258PR",
-    "releaseDate": "2024-11-20T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Kingston Predator 16GB DDR5",
-    "brand": "Kingston",
-    "type": "RAM",
-    "price": 73947,
-    "description": "16GB DDR5 5200MHz memory module for gaming and performance",
-    "stock": 50,
-    "image": "https://example.com/images/kingston-predator.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "5200MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "KIN8877PR",
-    "releaseDate": "2024-02-04T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Corsair Vengeance 16GB DDR4",
-    "brand": "Corsair",
-    "type": "RAM",
-    "price": 17697,
-    "description": "16GB DDR4 4000MHz memory module for gaming and performance",
-    "stock": 34,
-    "image": "https://example.com/images/corsair-vengeance.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "4000MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "COR9529VE",
-    "releaseDate": "2024-10-20T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Samsung Predator 32GB DDR5",
-    "brand": "Samsung",
-    "type": "RAM",
-    "price": 66845,
-    "description": "32GB DDR5 3600MHz memory module for gaming and performance",
-    "stock": 38,
-    "image": "https://example.com/images/samsung-predator.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3600MHz",
-      "type": "DDR5",
-      "voltage": "1.2V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "SAM6384PR",
-    "releaseDate": "2023-08-23T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Samsung XPG 16GB DDR5",
-    "brand": "Samsung",
-    "type": "RAM",
-    "price": 18951,
-    "description": "16GB DDR5 4800MHz memory module for gaming and performance",
-    "stock": 18,
-    "image": "https://example.com/images/samsung-xpg.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "4800MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "SAM3085XP",
-    "releaseDate": "2021-10-07T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX Elite 32GB DDR5",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 44977,
-    "description": "32GB DDR5 3000MHz memory module for gaming and performance",
-    "stock": 7,
-    "image": "https://example.com/images/hyperx-elite.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3000MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "HYP2756EL",
-    "releaseDate": "2023-09-30T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX Elite 32GB DDR5",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 47072,
-    "description": "32GB DDR5 3000MHz memory module for gaming and performance",
-    "stock": 40,
-    "image": "https://example.com/images/hyperx-elite.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3000MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "HYP9094EL",
-    "releaseDate": "2020-05-09T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "ADATA T-Force 64GB DDR4",
-    "brand": "ADATA",
-    "type": "RAM",
-    "price": 47509,
-    "description": "64GB DDR4 5200MHz memory module for gaming and performance",
-    "stock": 30,
-    "image": "https://example.com/images/adata-t-force.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "5200MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "ADA2224T-",
-    "releaseDate": "2024-02-25T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup XPG 16GB DDR4",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 54948,
-    "description": "16GB DDR4 3200MHz memory module for gaming and performance",
-    "stock": 8,
-    "image": "https://example.com/images/teamgroup-xpg.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "3200MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "TEA9509XP",
-    "releaseDate": "2021-05-15T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Kingston Vengeance 64GB DDR4",
-    "brand": "Kingston",
-    "type": "RAM",
-    "price": 76066,
-    "description": "64GB DDR4 3600MHz memory module for gaming and performance",
-    "stock": 46,
-    "image": "https://example.com/images/kingston-vengeance.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "3600MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "KIN7021VE",
-    "releaseDate": "2020-06-02T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "PNY Elite 64GB DDR4",
-    "brand": "PNY",
-    "type": "RAM",
-    "price": 18955,
-    "description": "64GB DDR4 5200MHz memory module for gaming and performance",
-    "stock": 21,
-    "image": "https://example.com/images/pny-elite.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "5200MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "PNY2436EL",
-    "releaseDate": "2024-12-26T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX Fury 32GB DDR4",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 19889,
-    "description": "32GB DDR4 3600MHz memory module for gaming and performance",
-    "stock": 25,
-    "image": "https://example.com/images/hyperx-fury.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3600MHz",
-      "type": "DDR4",
-      "voltage": "1.4V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "HYP6069FU",
-    "releaseDate": "2020-09-21T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Patriot Fury 64GB DDR5",
-    "brand": "Patriot",
-    "type": "RAM",
-    "price": 50076,
-    "description": "64GB DDR5 2666MHz memory module for gaming and performance",
-    "stock": 34,
-    "image": "https://example.com/images/patriot-fury.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "2666MHz",
-      "type": "DDR5",
-      "voltage": "1.2V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "PAT8820FU",
-    "releaseDate": "2020-03-06T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Patriot Vengeance 64GB DDR4",
-    "brand": "Patriot",
-    "type": "RAM",
-    "price": 65718,
-    "description": "64GB DDR4 4400MHz memory module for gaming and performance",
-    "stock": 2,
-    "image": "https://example.com/images/patriot-vengeance.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "4400MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "PAT8447VE",
-    "releaseDate": "2020-01-24T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup Delta 16GB DDR4",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 75441,
-    "description": "16GB DDR4 4400MHz memory module for gaming and performance",
-    "stock": 2,
-    "image": "https://example.com/images/teamgroup-delta.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "4400MHz",
-      "type": "DDR4",
-      "voltage": "1.35V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "TEA1314DE",
-    "releaseDate": "2020-06-21T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX XPG 64GB DDR5",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 66697,
-    "description": "64GB DDR5 3200MHz memory module for gaming and performance",
-    "stock": 22,
-    "image": "https://example.com/images/hyperx-xpg.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "3200MHz",
-      "type": "DDR5",
-      "voltage": "1.2V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "HYP8503XP",
-    "releaseDate": "2021-06-26T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup XPG 16GB DDR4",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 15609,
-    "description": "16GB DDR4 3200MHz memory module for gaming and performance",
-    "stock": 31,
-    "image": "https://example.com/images/teamgroup-xpg.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "3200MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "TEA1352XP",
-    "releaseDate": "2020-03-14T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX Vengeance 64GB DDR5",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 52661,
-    "description": "64GB DDR5 4400MHz memory module for gaming and performance",
-    "stock": 40,
-    "image": "https://example.com/images/hyperx-vengeance.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "4400MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "HYP5551VE",
-    "releaseDate": "2020-05-04T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "G.Skill Ripjaws 64GB DDR5",
-    "brand": "G.Skill",
-    "type": "RAM",
-    "price": 34169,
-    "description": "64GB DDR5 4400MHz memory module for gaming and performance",
-    "stock": 15,
-    "image": "https://example.com/images/g.skill-ripjaws.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "4400MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "G.S2727RI",
-    "releaseDate": "2022-07-14T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Samsung T-Force 64GB DDR5",
-    "brand": "Samsung",
-    "type": "RAM",
-    "price": 77893,
-    "description": "64GB DDR5 3000MHz memory module for gaming and performance",
-    "stock": 7,
-    "image": "https://example.com/images/samsung-t-force.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "3000MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "SAM8725T-",
-    "releaseDate": "2022-03-29T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX Ballistix 64GB DDR4",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 56316,
-    "description": "64GB DDR4 3000MHz memory module for gaming and performance",
-    "stock": 30,
-    "image": "https://example.com/images/hyperx-ballistix.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "3000MHz",
-      "type": "DDR4",
-      "voltage": "1.4V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "HYP1143BA",
-    "releaseDate": "2021-05-09T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Samsung XPG 16GB DDR5",
-    "brand": "Samsung",
-    "type": "RAM",
-    "price": 16866,
-    "description": "16GB DDR5 2666MHz memory module for gaming and performance",
-    "stock": 6,
-    "image": "https://example.com/images/samsung-xpg.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "2666MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "SAM8956XP",
-    "releaseDate": "2024-05-14T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup Fury 8GB DDR4",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 51261,
-    "description": "8GB DDR4 4000MHz memory module for gaming and performance",
-    "stock": 37,
-    "image": "https://example.com/images/teamgroup-fury.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "4000MHz",
-      "type": "DDR4",
-      "voltage": "1.35V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "TEA5620FU",
-    "releaseDate": "2021-08-30T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Kingston Elite 32GB DDR5",
-    "brand": "Kingston",
-    "type": "RAM",
-    "price": 17264,
-    "description": "32GB DDR5 5200MHz memory module for gaming and performance",
-    "stock": 25,
-    "image": "https://example.com/images/kingston-elite.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "5200MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "KIN9767EL",
-    "releaseDate": "2021-05-10T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "ADATA Predator 8GB DDR5",
-    "brand": "ADATA",
-    "type": "RAM",
-    "price": 52341,
-    "description": "8GB DDR5 3000MHz memory module for gaming and performance",
-    "stock": 14,
-    "image": "https://example.com/images/adata-predator.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "3000MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "ADA2389PR",
-    "releaseDate": "2022-03-20T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "PNY Ballistix 8GB DDR5",
-    "brand": "PNY",
-    "type": "RAM",
-    "price": 24954,
-    "description": "8GB DDR5 4800MHz memory module for gaming and performance",
-    "stock": 8,
-    "image": "https://example.com/images/pny-ballistix.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "4800MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "PNY9604BA",
-    "releaseDate": "2022-12-26T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Crucial Vengeance 16GB DDR4",
-    "brand": "Crucial",
-    "type": "RAM",
-    "price": 16239,
-    "description": "16GB DDR4 4800MHz memory module for gaming and performance",
-    "stock": 8,
-    "image": "https://example.com/images/crucial-vengeance.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "4800MHz",
-      "type": "DDR4",
-      "voltage": "1.4V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "CRU5715VE",
-    "releaseDate": "2022-08-15T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "G.Skill Predator 32GB DDR4",
-    "brand": "G.Skill",
-    "type": "RAM",
-    "price": 22056,
-    "description": "32GB DDR4 4400MHz memory module for gaming and performance",
-    "stock": 7,
-    "image": "https://example.com/images/g.skill-predator.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "4400MHz",
-      "type": "DDR4",
-      "voltage": "1.2V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "G.S1481PR",
-    "releaseDate": "2023-10-03T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "ADATA Elite 32GB DDR5",
-    "brand": "ADATA",
-    "type": "RAM",
-    "price": 43201,
-    "description": "32GB DDR5 5200MHz memory module for gaming and performance",
+    "type": "Keyboard",
+    "price": 111655,
+    "description": "Corsair Keyboard Model 540 for high-performance computing.",
     "stock": 9,
-    "image": "https://example.com/images/adata-elite.jpg",
+    "image": "https://example.com/images/corsair_keyboard_20.jpg",
     "specs": {
-      "capacity": "32GB",
-      "speed": "5200MHz",
-      "type": "DDR5",
-      "voltage": "1.2V"
+      "type": "Mechanical",
+      "switchType": "Red",
+      "backlight": "RGB"
     },
     "warranty": "Limited lifetime",
-    "modelNumber": "ADA2984EL",
-    "releaseDate": "2024-02-27T00:00:00",
+    "modelNumber": "COR9589",
+    "releaseDate": "2020-02-16T00:00:00",
     "inStock": true
   },
   {
-    "name": "Crucial Elite 8GB DDR5",
-    "brand": "Crucial",
+    "name": "Kingston RAM Model 104",
+    "brand": "Kingston",
     "type": "RAM",
-    "price": 41774,
-    "description": "8GB DDR5 4800MHz memory module for gaming and performance",
-    "stock": 23,
-    "image": "https://example.com/images/crucial-elite.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "4800MHz",
-      "type": "DDR5",
-      "voltage": "1.2V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "CRU5366EL",
-    "releaseDate": "2024-01-21T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup Delta 32GB DDR4",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 65177,
-    "description": "32GB DDR4 4400MHz memory module for gaming and performance",
-    "stock": 15,
-    "image": "https://example.com/images/teamgroup-delta.jpg",
+    "price": 132724,
+    "description": "Kingston RAM Model 104 for high-performance computing.",
+    "stock": 4,
+    "image": "https://example.com/images/kingston_ram_21.jpg",
     "specs": {
       "capacity": "32GB",
-      "speed": "4400MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
+      "speed": "4000MHz",
+      "type": "DDR5",
+      "voltage": "1.16V"
     },
     "warranty": "2 years",
-    "modelNumber": "TEA4119DE",
-    "releaseDate": "2022-12-27T00:00:00",
+    "modelNumber": "KIN5098",
+    "releaseDate": "2020-12-29T00:00:00",
     "inStock": true
   },
   {
-    "name": "Patriot Vengeance 32GB DDR5",
-    "brand": "Patriot",
-    "type": "RAM",
-    "price": 29829,
-    "description": "32GB DDR5 5200MHz memory module for gaming and performance",
-    "stock": 12,
-    "image": "https://example.com/images/patriot-vengeance.jpg",
+    "name": "NVIDIA GPU Model 133",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 69458,
+    "description": "NVIDIA GPU Model 133 for high-performance computing.",
+    "stock": 14,
+    "image": "https://example.com/images/nvidia_gpu_22.jpg",
     "specs": {
-      "capacity": "32GB",
-      "speed": "5200MHz",
-      "type": "DDR5",
-      "voltage": "1.4V"
+      "vram": "10GB",
+      "chipset": "RX 7900 XTX",
+      "memoryType": "GDDR6"
     },
-    "warranty": "5 years",
-    "modelNumber": "PAT1661VE",
-    "releaseDate": "2024-09-04T00:00:00",
+    "warranty": "1 year",
+    "modelNumber": "NVI5020",
+    "releaseDate": "2023-04-29T00:00:00",
     "inStock": true
   },
   {
-    "name": "TeamGroup Vengeance 8GB DDR5",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 31884,
-    "description": "8GB DDR5 4800MHz memory module for gaming and performance",
-    "stock": 17,
-    "image": "https://example.com/images/teamgroup-vengeance.jpg",
+    "name": "AMD GPU Model 112",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 83456,
+    "description": "AMD GPU Model 112 for high-performance computing.",
+    "stock": 4,
+    "image": "https://example.com/images/amd_gpu_23.jpg",
     "specs": {
-      "capacity": "8GB",
-      "speed": "4800MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
+      "vram": "16GB",
+      "chipset": "RX 6700 XT",
+      "memoryType": "GDDR6X"
     },
     "warranty": "3 years",
-    "modelNumber": "TEA8011VE",
-    "releaseDate": "2021-08-28T00:00:00",
+    "modelNumber": "AMD6783",
+    "releaseDate": "2021-01-11T00:00:00",
     "inStock": true
   },
   {
-    "name": "Corsair T-Force 32GB DDR5",
+    "name": "Logitech Audio Model 259",
+    "brand": "Logitech",
+    "type": "Audio",
+    "price": 53432,
+    "description": "Logitech Audio Model 259 for high-performance computing.",
+    "stock": 0,
+    "image": "https://example.com/images/logitech_audio_24.jpg",
+    "specs": {
+      "type": "Speakers",
+      "connectivity": "Bluetooth",
+      "noiseCancelling": "No"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "LOG9810",
+    "releaseDate": "2023-07-03T00:00:00",
+    "inStock": false
+  },
+  {
+    "name": "Panasonic Camera Model 270",
+    "brand": "Panasonic",
+    "type": "Camera",
+    "price": 172042,
+    "description": "Panasonic Camera Model 270 for high-performance computing.",
+    "stock": 17,
+    "image": "https://example.com/images/panasonic_camera_25.jpg",
+    "specs": {
+      "resolution": "20MP",
+      "sensor": "Micro Four Thirds",
+      "video": "4K"
+    },
+    "warranty": "2 years",
+    "modelNumber": "PAN2379",
+    "releaseDate": "2021-02-18T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Gigabyte Motherboard Model 915",
+    "brand": "Gigabyte",
+    "type": "Motherboard",
+    "price": 169835,
+    "description": "Gigabyte Motherboard Model 915 for high-performance computing.",
+    "stock": 14,
+    "image": "https://example.com/images/gigabyte_motherboard_26.jpg",
+    "specs": {
+      "chipset": "Z790",
+      "socket": "LGA1700",
+      "formFactor": "Micro-ATX"
+    },
+    "warranty": "2 years",
+    "modelNumber": "GIG2592",
+    "releaseDate": "2020-05-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "NVIDIA GPU Model 891",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 114998,
+    "description": "NVIDIA GPU Model 891 for high-performance computing.",
+    "stock": 14,
+    "image": "https://example.com/images/nvidia_gpu_27.jpg",
+    "specs": {
+      "vram": "8GB",
+      "chipset": "RX 7900 XTX",
+      "memoryType": "GDDR6X"
+    },
+    "warranty": "1 year",
+    "modelNumber": "NVI6530",
+    "releaseDate": "2022-01-09T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Razer Keyboard Model 184",
+    "brand": "Razer",
+    "type": "Keyboard",
+    "price": 16422,
+    "description": "Razer Keyboard Model 184 for high-performance computing.",
+    "stock": 16,
+    "image": "https://example.com/images/razer_keyboard_28.jpg",
+    "specs": {
+      "type": "Membrane",
+      "switchType": "Blue",
+      "backlight": "None"
+    },
+    "warranty": "2 years",
+    "modelNumber": "RAZ9745",
+    "releaseDate": "2020-03-04T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Sony Camera Model 472",
+    "brand": "Sony",
+    "type": "Camera",
+    "price": 171066,
+    "description": "Sony Camera Model 472 for high-performance computing.",
+    "stock": 13,
+    "image": "https://example.com/images/sony_camera_29.jpg",
+    "specs": {
+      "resolution": "20MP",
+      "sensor": "Micro Four Thirds",
+      "video": "6K"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "SON1787",
+    "releaseDate": "2020-08-10T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Logitech Audio Model 874",
+    "brand": "Logitech",
+    "type": "Audio",
+    "price": 32633,
+    "description": "Logitech Audio Model 874 for high-performance computing.",
+    "stock": 0,
+    "image": "https://example.com/images/logitech_audio_30.jpg",
+    "specs": {
+      "type": "Speakers",
+      "connectivity": "Bluetooth",
+      "noiseCancelling": "No"
+    },
+    "warranty": "1 year",
+    "modelNumber": "LOG6865",
+    "releaseDate": "2023-03-04T00:00:00",
+    "inStock": false
+  },
+  {
+    "name": "Razer Keyboard Model 819",
+    "brand": "Razer",
+    "type": "Keyboard",
+    "price": 149607,
+    "description": "Razer Keyboard Model 819 for high-performance computing.",
+    "stock": 13,
+    "image": "https://example.com/images/razer_keyboard_31.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Brown",
+      "backlight": "Single color"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "RAZ4962",
+    "releaseDate": "2021-08-21T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ASRock Motherboard Model 613",
+    "brand": "ASRock",
+    "type": "Motherboard",
+    "price": 16459,
+    "description": "ASRock Motherboard Model 613 for high-performance computing.",
+    "stock": 20,
+    "image": "https://example.com/images/asrock_motherboard_32.jpg",
+    "specs": {
+      "chipset": "H610",
+      "socket": "AM4",
+      "formFactor": "Micro-ATX"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "ASR9168",
+    "releaseDate": "2024-09-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Logitech Keyboard Model 892",
+    "brand": "Logitech",
+    "type": "Keyboard",
+    "price": 29292,
+    "description": "Logitech Keyboard Model 892 for high-performance computing.",
+    "stock": 8,
+    "image": "https://example.com/images/logitech_keyboard_33.jpg",
+    "specs": {
+      "type": "Membrane",
+      "switchType": "Blue",
+      "backlight": "None"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "LOG5214",
+    "releaseDate": "2021-06-27T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Logitech Keyboard Model 908",
+    "brand": "Logitech",
+    "type": "Keyboard",
+    "price": 92020,
+    "description": "Logitech Keyboard Model 908 for high-performance computing.",
+    "stock": 15,
+    "image": "https://example.com/images/logitech_keyboard_34.jpg",
+    "specs": {
+      "type": "Membrane",
+      "switchType": "Brown",
+      "backlight": "None"
+    },
+    "warranty": "3 years",
+    "modelNumber": "LOG4512",
+    "releaseDate": "2022-02-23T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Intel CPU Model 264",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 94229,
+    "description": "Intel CPU Model 264 for high-performance computing.",
+    "stock": 8,
+    "image": "https://example.com/images/intel_cpu_35.jpg",
+    "specs": {
+      "cores": 12,
+      "threads": 24,
+      "baseClock": "2.79GHz",
+      "boostClock": "4.38GHz"
+    },
+    "warranty": "1 year",
+    "modelNumber": "INT6450",
+    "releaseDate": "2020-07-29T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "JBL Audio Model 367",
+    "brand": "JBL",
+    "type": "Audio",
+    "price": 92919,
+    "description": "JBL Audio Model 367 for high-performance computing.",
+    "stock": 5,
+    "image": "https://example.com/images/jbl_audio_36.jpg",
+    "specs": {
+      "type": "Earbuds",
+      "connectivity": "Wireless",
+      "noiseCancelling": "Yes"
+    },
+    "warranty": "3 years",
+    "modelNumber": "JBL3193",
+    "releaseDate": "2021-01-01T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair RAM Model 891",
     "brand": "Corsair",
     "type": "RAM",
-    "price": 36111,
-    "description": "32GB DDR5 2666MHz memory module for gaming and performance",
-    "stock": 35,
-    "image": "https://example.com/images/corsair-t-force.jpg",
+    "price": 221709,
+    "description": "Corsair RAM Model 891 for high-performance computing.",
+    "stock": 17,
+    "image": "https://example.com/images/corsair_ram_37.jpg",
     "specs": {
-      "capacity": "32GB",
-      "speed": "2666MHz",
+      "capacity": "16GB",
+      "speed": "4800MHz",
       "type": "DDR5",
-      "voltage": "1.4V"
+      "voltage": "1.19V"
     },
-    "warranty": "3 years",
-    "modelNumber": "COR8491T-",
-    "releaseDate": "2023-12-03T00:00:00",
+    "warranty": "1 year",
+    "modelNumber": "COR8283",
+    "releaseDate": "2020-09-26T00:00:00",
     "inStock": true
   },
   {
-    "name": "HyperX Fury 64GB DDR5",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 59915,
-    "description": "64GB DDR5 3200MHz memory module for gaming and performance",
-    "stock": 41,
-    "image": "https://example.com/images/hyperx-fury.jpg",
+    "name": "ASRock Motherboard Model 350",
+    "brand": "ASRock",
+    "type": "Motherboard",
+    "price": 206770,
+    "description": "ASRock Motherboard Model 350 for high-performance computing.",
+    "stock": 10,
+    "image": "https://example.com/images/asrock_motherboard_38.jpg",
     "specs": {
-      "capacity": "64GB",
+      "chipset": "H610",
+      "socket": "LGA1700",
+      "formFactor": "Mini-ITX"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "ASR3224",
+    "releaseDate": "2020-09-28T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "NVIDIA GPU Model 519",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 215756,
+    "description": "NVIDIA GPU Model 519 for high-performance computing.",
+    "stock": 3,
+    "image": "https://example.com/images/nvidia_gpu_39.jpg",
+    "specs": {
+      "vram": "16GB",
+      "chipset": "RTX 4070",
+      "memoryType": "GDDR6"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "NVI8625",
+    "releaseDate": "2023-04-28T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Gigabyte Motherboard Model 468",
+    "brand": "Gigabyte",
+    "type": "Motherboard",
+    "price": 138513,
+    "description": "Gigabyte Motherboard Model 468 for high-performance computing.",
+    "stock": 11,
+    "image": "https://example.com/images/gigabyte_motherboard_40.jpg",
+    "specs": {
+      "chipset": "B550",
+      "socket": "AM4",
+      "formFactor": "ATX"
+    },
+    "warranty": "1 year",
+    "modelNumber": "GIG8388",
+    "releaseDate": "2022-08-30T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair Keyboard Model 996",
+    "brand": "Corsair",
+    "type": "Keyboard",
+    "price": 186412,
+    "description": "Corsair Keyboard Model 996 for high-performance computing.",
+    "stock": 10,
+    "image": "https://example.com/images/corsair_keyboard_41.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Blue",
+      "backlight": "Single color"
+    },
+    "warranty": "1 year",
+    "modelNumber": "COR3600",
+    "releaseDate": "2023-05-28T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston RAM Model 294",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 159534,
+    "description": "Kingston RAM Model 294 for high-performance computing.",
+    "stock": 14,
+    "image": "https://example.com/images/kingston_ram_42.jpg",
+    "specs": {
+      "capacity": "16GB",
       "speed": "3200MHz",
       "type": "DDR5",
       "voltage": "1.35V"
     },
-    "warranty": "Limited lifetime",
-    "modelNumber": "HYP8078FU",
+    "warranty": "3 years",
+    "modelNumber": "KIN6500",
+    "releaseDate": "2020-06-16T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Intel CPU Model 192",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 227218,
+    "description": "Intel CPU Model 192 for high-performance computing.",
+    "stock": 19,
+    "image": "https://example.com/images/intel_cpu_43.jpg",
+    "specs": {
+      "cores": 12,
+      "threads": 16,
+      "baseClock": "3.93GHz",
+      "boostClock": "4.44GHz"
+    },
+    "warranty": "1 year",
+    "modelNumber": "INT1844",
+    "releaseDate": "2024-09-27T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair Keyboard Model 159",
+    "brand": "Corsair",
+    "type": "Keyboard",
+    "price": 44379,
+    "description": "Corsair Keyboard Model 159 for high-performance computing.",
+    "stock": 1,
+    "image": "https://example.com/images/corsair_keyboard_44.jpg",
+    "specs": {
+      "type": "Membrane",
+      "switchType": "Blue",
+      "backlight": "RGB"
+    },
+    "warranty": "1 year",
+    "modelNumber": "COR3873",
+    "releaseDate": "2020-03-22T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Razer Keyboard Model 929",
+    "brand": "Razer",
+    "type": "Keyboard",
+    "price": 12429,
+    "description": "Razer Keyboard Model 929 for high-performance computing.",
+    "stock": 18,
+    "image": "https://example.com/images/razer_keyboard_45.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Blue",
+      "backlight": "None"
+    },
+    "warranty": "3 years",
+    "modelNumber": "RAZ6514",
     "releaseDate": "2020-09-07T00:00:00",
     "inStock": true
   },
   {
-    "name": "ADATA Viper 8GB DDR4",
-    "brand": "ADATA",
-    "type": "RAM",
-    "price": 56566,
-    "description": "8GB DDR4 3000MHz memory module for gaming and performance",
-    "stock": 3,
-    "image": "https://example.com/images/adata-viper.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "3000MHz",
-      "type": "DDR4",
-      "voltage": "1.35V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "ADA7033VI",
-    "releaseDate": "2022-06-03T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Crucial Fury 8GB DDR4",
-    "brand": "Crucial",
-    "type": "RAM",
-    "price": 32004,
-    "description": "8GB DDR4 2666MHz memory module for gaming and performance",
-    "stock": 25,
-    "image": "https://example.com/images/crucial-fury.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "2666MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "CRU3741FU",
-    "releaseDate": "2022-07-01T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX T-Force 8GB DDR4",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 15160,
-    "description": "8GB DDR4 4800MHz memory module for gaming and performance",
-    "stock": 28,
-    "image": "https://example.com/images/hyperx-t-force.jpg",
-    "specs": {
-      "capacity": "8GB",
-      "speed": "4800MHz",
-      "type": "DDR4",
-      "voltage": "1.35V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "HYP2243T-",
-    "releaseDate": "2022-07-02T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "HyperX Fury 64GB DDR5",
-    "brand": "HyperX",
-    "type": "RAM",
-    "price": 75772,
-    "description": "64GB DDR5 4400MHz memory module for gaming and performance",
-    "stock": 26,
-    "image": "https://example.com/images/hyperx-fury.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "4400MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "3 years",
-    "modelNumber": "HYP8855FU",
-    "releaseDate": "2022-09-13T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "PNY Ripjaws 32GB DDR4",
-    "brand": "PNY",
-    "type": "RAM",
-    "price": 55540,
-    "description": "32GB DDR4 4000MHz memory module for gaming and performance",
+    "name": "SteelSeries Keyboard Model 318",
+    "brand": "SteelSeries",
+    "type": "Keyboard",
+    "price": 69397,
+    "description": "SteelSeries Keyboard Model 318 for high-performance computing.",
     "stock": 0,
-    "image": "https://example.com/images/pny-ripjaws.jpg",
+    "image": "https://example.com/images/steelseries_keyboard_46.jpg",
     "specs": {
-      "capacity": "32GB",
-      "speed": "4000MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
+      "type": "Mechanical",
+      "switchType": "Brown",
+      "backlight": "RGB"
+    },
+    "warranty": "1 year",
+    "modelNumber": "STE2052",
+    "releaseDate": "2024-01-08T00:00:00",
+    "inStock": false
+  },
+  {
+    "name": "Panasonic Camera Model 965",
+    "brand": "Panasonic",
+    "type": "Camera",
+    "price": 94571,
+    "description": "Panasonic Camera Model 965 for high-performance computing.",
+    "stock": 17,
+    "image": "https://example.com/images/panasonic_camera_47.jpg",
+    "specs": {
+      "resolution": "24MP",
+      "sensor": "APS-C",
+      "video": "4K"
+    },
+    "warranty": "1 year",
+    "modelNumber": "PAN5748",
+    "releaseDate": "2021-05-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "NVIDIA GPU Model 152",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 102203,
+    "description": "NVIDIA GPU Model 152 for high-performance computing.",
+    "stock": 15,
+    "image": "https://example.com/images/nvidia_gpu_48.jpg",
+    "specs": {
+      "vram": "8GB",
+      "chipset": "RTX 4070",
+      "memoryType": "GDDR6X"
+    },
+    "warranty": "2 years",
+    "modelNumber": "NVI4490",
+    "releaseDate": "2020-08-11T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair Keyboard Model 620",
+    "brand": "Corsair",
+    "type": "Keyboard",
+    "price": 161494,
+    "description": "Corsair Keyboard Model 620 for high-performance computing.",
+    "stock": 14,
+    "image": "https://example.com/images/corsair_keyboard_49.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Blue",
+      "backlight": "Single color"
+    },
+    "warranty": "2 years",
+    "modelNumber": "COR9686",
+    "releaseDate": "2020-01-01T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "AMD CPU Model 558",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 202011,
+    "description": "AMD CPU Model 558 for high-performance computing.",
+    "stock": 18,
+    "image": "https://example.com/images/amd_cpu_50.jpg",
+    "specs": {
+      "cores": 6,
+      "threads": 24,
+      "baseClock": "3.89GHz",
+      "boostClock": "5.17GHz"
+    },
+    "warranty": "1 year",
+    "modelNumber": "AMD8735",
+    "releaseDate": "2023-02-03T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "MSI Motherboard Model 117",
+    "brand": "MSI",
+    "type": "Motherboard",
+    "price": 66554,
+    "description": "MSI Motherboard Model 117 for high-performance computing.",
+    "stock": 8,
+    "image": "https://example.com/images/msi_motherboard_51.jpg",
+    "specs": {
+      "chipset": "H610",
+      "socket": "AM5",
+      "formFactor": "Mini-ITX"
     },
     "warranty": "3 years",
-    "modelNumber": "PNY7981RI",
-    "releaseDate": "2021-11-23T00:00:00",
+    "modelNumber": "MSI1360",
+    "releaseDate": "2021-01-26T00:00:00",
     "inStock": true
   },
   {
-    "name": "G.Skill Ripjaws 16GB DDR4",
-    "brand": "G.Skill",
+    "name": "NVIDIA GPU Model 599",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 108655,
+    "description": "NVIDIA GPU Model 599 for high-performance computing.",
+    "stock": 14,
+    "image": "https://example.com/images/nvidia_gpu_52.jpg",
+    "specs": {
+      "vram": "10GB",
+      "chipset": "RTX 3060",
+      "memoryType": "GDDR6"
+    },
+    "warranty": "2 years",
+    "modelNumber": "NVI1676",
+    "releaseDate": "2022-12-05T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Razer Keyboard Model 711",
+    "brand": "Razer",
+    "type": "Keyboard",
+    "price": 92920,
+    "description": "Razer Keyboard Model 711 for high-performance computing.",
+    "stock": 18,
+    "image": "https://example.com/images/razer_keyboard_53.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Red",
+      "backlight": "RGB"
+    },
+    "warranty": "3 years",
+    "modelNumber": "RAZ3646",
+    "releaseDate": "2020-08-07T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Logitech Keyboard Model 197",
+    "brand": "Logitech",
+    "type": "Keyboard",
+    "price": 27749,
+    "description": "Logitech Keyboard Model 197 for high-performance computing.",
+    "stock": 2,
+    "image": "https://example.com/images/logitech_keyboard_54.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Brown",
+      "backlight": "RGB"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "LOG1127",
+    "releaseDate": "2021-07-14T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Gigabyte Motherboard Model 207",
+    "brand": "Gigabyte",
+    "type": "Motherboard",
+    "price": 149574,
+    "description": "Gigabyte Motherboard Model 207 for high-performance computing.",
+    "stock": 12,
+    "image": "https://example.com/images/gigabyte_motherboard_55.jpg",
+    "specs": {
+      "chipset": "H610",
+      "socket": "AM5",
+      "formFactor": "Mini-ITX"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "GIG1934",
+    "releaseDate": "2023-05-29T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "AMD GPU Model 434",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 114699,
+    "description": "AMD GPU Model 434 for high-performance computing.",
+    "stock": 2,
+    "image": "https://example.com/images/amd_gpu_56.jpg",
+    "specs": {
+      "vram": "10GB",
+      "chipset": "RX 6700 XT",
+      "memoryType": "GDDR6"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "AMD2312",
+    "releaseDate": "2021-04-25T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "NVIDIA GPU Model 187",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 192927,
+    "description": "NVIDIA GPU Model 187 for high-performance computing.",
+    "stock": 14,
+    "image": "https://example.com/images/nvidia_gpu_57.jpg",
+    "specs": {
+      "vram": "10GB",
+      "chipset": "RX 6700 XT",
+      "memoryType": "GDDR6X"
+    },
+    "warranty": "3 years",
+    "modelNumber": "NVI3172",
+    "releaseDate": "2021-03-24T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Intel CPU Model 324",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 245888,
+    "description": "Intel CPU Model 324 for high-performance computing.",
+    "stock": 0,
+    "image": "https://example.com/images/intel_cpu_58.jpg",
+    "specs": {
+      "cores": 4,
+      "threads": 24,
+      "baseClock": "3.23GHz",
+      "boostClock": "5.42GHz"
+    },
+    "warranty": "3 years",
+    "modelNumber": "INT9982",
+    "releaseDate": "2020-10-18T00:00:00",
+    "inStock": false
+  },
+  {
+    "name": "AMD CPU Model 599",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 235832,
+    "description": "AMD CPU Model 599 for high-performance computing.",
+    "stock": 16,
+    "image": "https://example.com/images/amd_cpu_59.jpg",
+    "specs": {
+      "cores": 16,
+      "threads": 24,
+      "baseClock": "3.33GHz",
+      "boostClock": "4.86GHz"
+    },
+    "warranty": "2 years",
+    "modelNumber": "AMD8184",
+    "releaseDate": "2021-02-15T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "TeamGroup RAM Model 368",
+    "brand": "TeamGroup",
     "type": "RAM",
-    "price": 11027,
-    "description": "16GB DDR4 5200MHz memory module for gaming and performance",
-    "stock": 25,
-    "image": "https://example.com/images/g.skill-ripjaws.jpg",
+    "price": 143277,
+    "description": "TeamGroup RAM Model 368 for high-performance computing.",
+    "stock": 0,
+    "image": "https://example.com/images/teamgroup_ram_60.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.15V"
+    },
+    "warranty": "3 years",
+    "modelNumber": "TEA5347",
+    "releaseDate": "2022-07-14T00:00:00",
+    "inStock": false
+  },
+  {
+    "name": "ASRock Motherboard Model 783",
+    "brand": "ASRock",
+    "type": "Motherboard",
+    "price": 115898,
+    "description": "ASRock Motherboard Model 783 for high-performance computing.",
+    "stock": 20,
+    "image": "https://example.com/images/asrock_motherboard_61.jpg",
+    "specs": {
+      "chipset": "Z790",
+      "socket": "LGA1700",
+      "formFactor": "Micro-ATX"
+    },
+    "warranty": "2 years",
+    "modelNumber": "ASR4477",
+    "releaseDate": "2022-01-11T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Patriot RAM Model 515",
+    "brand": "Patriot",
+    "type": "RAM",
+    "price": 61742,
+    "description": "Patriot RAM Model 515 for high-performance computing.",
+    "stock": 8,
+    "image": "https://example.com/images/patriot_ram_62.jpg",
     "specs": {
       "capacity": "16GB",
-      "speed": "5200MHz",
-      "type": "DDR4",
-      "voltage": "1.4V"
+      "speed": "3200MHz",
+      "type": "DDR5",
+      "voltage": "1.39V"
     },
-    "warranty": "5 years",
-    "modelNumber": "G.S8404RI",
-    "releaseDate": "2020-05-09T00:00:00",
+    "warranty": "Limited lifetime",
+    "modelNumber": "PAT1321",
+    "releaseDate": "2024-10-07T00:00:00",
     "inStock": true
   },
   {
-    "name": "HyperX Vengeance 8GB DDR5",
-    "brand": "HyperX",
+    "name": "Corsair Keyboard Model 887",
+    "brand": "Corsair",
+    "type": "Keyboard",
+    "price": 59204,
+    "description": "Corsair Keyboard Model 887 for high-performance computing.",
+    "stock": 18,
+    "image": "https://example.com/images/corsair_keyboard_63.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Brown",
+      "backlight": "None"
+    },
+    "warranty": "3 years",
+    "modelNumber": "COR3267",
+    "releaseDate": "2022-07-18T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair RAM Model 596",
+    "brand": "Corsair",
     "type": "RAM",
-    "price": 28984,
-    "description": "8GB DDR5 4800MHz memory module for gaming and performance",
-    "stock": 45,
-    "image": "https://example.com/images/hyperx-vengeance.jpg",
+    "price": 36424,
+    "description": "Corsair RAM Model 596 for high-performance computing.",
+    "stock": 18,
+    "image": "https://example.com/images/corsair_ram_64.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "3200MHz",
+      "type": "DDR5",
+      "voltage": "1.18V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "COR7792",
+    "releaseDate": "2024-02-19T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Razer Keyboard Model 553",
+    "brand": "Razer",
+    "type": "Keyboard",
+    "price": 99982,
+    "description": "Razer Keyboard Model 553 for high-performance computing.",
+    "stock": 3,
+    "image": "https://example.com/images/razer_keyboard_65.jpg",
+    "specs": {
+      "type": "Membrane",
+      "switchType": "Blue",
+      "backlight": "None"
+    },
+    "warranty": "2 years",
+    "modelNumber": "RAZ8329",
+    "releaseDate": "2023-10-31T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "SteelSeries Keyboard Model 745",
+    "brand": "SteelSeries",
+    "type": "Keyboard",
+    "price": 134423,
+    "description": "SteelSeries Keyboard Model 745 for high-performance computing.",
+    "stock": 4,
+    "image": "https://example.com/images/steelseries_keyboard_66.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Red",
+      "backlight": "None"
+    },
+    "warranty": "2 years",
+    "modelNumber": "STE9637",
+    "releaseDate": "2024-01-25T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ASRock Motherboard Model 892",
+    "brand": "ASRock",
+    "type": "Motherboard",
+    "price": 85289,
+    "description": "ASRock Motherboard Model 892 for high-performance computing.",
+    "stock": 5,
+    "image": "https://example.com/images/asrock_motherboard_67.jpg",
+    "specs": {
+      "chipset": "Z790",
+      "socket": "AM4",
+      "formFactor": "Micro-ATX"
+    },
+    "warranty": "1 year",
+    "modelNumber": "ASR2880",
+    "releaseDate": "2020-05-10T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Intel CPU Model 695",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 245968,
+    "description": "Intel CPU Model 695 for high-performance computing.",
+    "stock": 17,
+    "image": "https://example.com/images/intel_cpu_68.jpg",
+    "specs": {
+      "cores": 12,
+      "threads": 8,
+      "baseClock": "3.03GHz",
+      "boostClock": "4.21GHz"
+    },
+    "warranty": "3 years",
+    "modelNumber": "INT4421",
+    "releaseDate": "2021-10-10T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Intel CPU Model 102",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 93219,
+    "description": "Intel CPU Model 102 for high-performance computing.",
+    "stock": 17,
+    "image": "https://example.com/images/intel_cpu_69.jpg",
+    "specs": {
+      "cores": 16,
+      "threads": 24,
+      "baseClock": "3.51GHz",
+      "boostClock": "4.01GHz"
+    },
+    "warranty": "2 years",
+    "modelNumber": "INT7559",
+    "releaseDate": "2024-07-13T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Logitech Audio Model 356",
+    "brand": "Logitech",
+    "type": "Audio",
+    "price": 22669,
+    "description": "Logitech Audio Model 356 for high-performance computing.",
+    "stock": 10,
+    "image": "https://example.com/images/logitech_audio_70.jpg",
+    "specs": {
+      "type": "Earbuds",
+      "connectivity": "Wired",
+      "noiseCancelling": "Yes"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "LOG2874",
+    "releaseDate": "2023-05-25T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ASRock Motherboard Model 303",
+    "brand": "ASRock",
+    "type": "Motherboard",
+    "price": 48616,
+    "description": "ASRock Motherboard Model 303 for high-performance computing.",
+    "stock": 0,
+    "image": "https://example.com/images/asrock_motherboard_71.jpg",
+    "specs": {
+      "chipset": "B550",
+      "socket": "AM4",
+      "formFactor": "Mini-ITX"
+    },
+    "warranty": "1 year",
+    "modelNumber": "ASR1431",
+    "releaseDate": "2024-05-28T00:00:00",
+    "inStock": false
+  },
+  {
+    "name": "AMD CPU Model 857",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 89270,
+    "description": "AMD CPU Model 857 for high-performance computing.",
+    "stock": 19,
+    "image": "https://example.com/images/amd_cpu_72.jpg",
+    "specs": {
+      "cores": 16,
+      "threads": 16,
+      "baseClock": "2.72GHz",
+      "boostClock": "5.03GHz"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "AMD5606",
+    "releaseDate": "2021-03-29T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Logitech Keyboard Model 230",
+    "brand": "Logitech",
+    "type": "Keyboard",
+    "price": 92619,
+    "description": "Logitech Keyboard Model 230 for high-performance computing.",
+    "stock": 17,
+    "image": "https://example.com/images/logitech_keyboard_73.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Red",
+      "backlight": "None"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "LOG3000",
+    "releaseDate": "2020-06-04T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "AMD GPU Model 790",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 205744,
+    "description": "AMD GPU Model 790 for high-performance computing.",
+    "stock": 8,
+    "image": "https://example.com/images/amd_gpu_74.jpg",
+    "specs": {
+      "vram": "16GB",
+      "chipset": "RX 6700 XT",
+      "memoryType": "GDDR6"
+    },
+    "warranty": "3 years",
+    "modelNumber": "AMD8467",
+    "releaseDate": "2022-04-22T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill RAM Model 816",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 245527,
+    "description": "G.Skill RAM Model 816 for high-performance computing.",
+    "stock": 2,
+    "image": "https://example.com/images/g.skill_ram_75.jpg",
     "specs": {
       "capacity": "8GB",
       "speed": "4800MHz",
       "type": "DDR5",
-      "voltage": "1.2V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "HYP3484VE",
-    "releaseDate": "2020-01-26T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "PNY T-Force 16GB DDR5",
-    "brand": "PNY",
-    "type": "RAM",
-    "price": 32358,
-    "description": "16GB DDR5 3600MHz memory module for gaming and performance",
-    "stock": 21,
-    "image": "https://example.com/images/pny-t-force.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "3600MHz",
-      "type": "DDR5",
-      "voltage": "1.2V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "PNY4135T-",
-    "releaseDate": "2020-02-28T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "G.Skill Delta 32GB DDR5",
-    "brand": "G.Skill",
-    "type": "RAM",
-    "price": 71516,
-    "description": "32GB DDR5 3600MHz memory module for gaming and performance",
-    "stock": 43,
-    "image": "https://example.com/images/g.skill-delta.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3600MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "Limited lifetime",
-    "modelNumber": "G.S1348DE",
-    "releaseDate": "2021-01-16T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "TeamGroup Delta 32GB DDR5",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 34911,
-    "description": "32GB DDR5 3600MHz memory module for gaming and performance",
-    "stock": 37,
-    "image": "https://example.com/images/teamgroup-delta.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3600MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
+      "voltage": "1.26V"
     },
     "warranty": "3 years",
-    "modelNumber": "TEA2032DE",
-    "releaseDate": "2022-08-27T00:00:00",
+    "modelNumber": "G.S9905",
+    "releaseDate": "2022-04-14T00:00:00",
     "inStock": true
   },
   {
-    "name": "Kingston T-Force 16GB DDR4",
-    "brand": "Kingston",
-    "type": "RAM",
-    "price": 52653,
-    "description": "16GB DDR4 4400MHz memory module for gaming and performance",
-    "stock": 28,
-    "image": "https://example.com/images/kingston-t-force.jpg",
+    "name": "Logitech Audio Model 240",
+    "brand": "Logitech",
+    "type": "Audio",
+    "price": 164279,
+    "description": "Logitech Audio Model 240 for high-performance computing.",
+    "stock": 0,
+    "image": "https://example.com/images/logitech_audio_76.jpg",
     "specs": {
-      "capacity": "16GB",
-      "speed": "4400MHz",
-      "type": "DDR4",
-      "voltage": "1.35V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "KIN8050T-",
-    "releaseDate": "2024-01-12T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "PNY Predator 64GB DDR4",
-    "brand": "PNY",
-    "type": "RAM",
-    "price": 37570,
-    "description": "64GB DDR4 3200MHz memory module for gaming and performance",
-    "stock": 17,
-    "image": "https://example.com/images/pny-predator.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "3200MHz",
-      "type": "DDR4",
-      "voltage": "1.4V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "PNY2467PR",
-    "releaseDate": "2023-09-24T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Crucial Ripjaws 64GB DDR5",
-    "brand": "Crucial",
-    "type": "RAM",
-    "price": 37591,
-    "description": "64GB DDR5 4800MHz memory module for gaming and performance",
-    "stock": 47,
-    "image": "https://example.com/images/crucial-ripjaws.jpg",
-    "specs": {
-      "capacity": "64GB",
-      "speed": "4800MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
-    },
-    "warranty": "2 years",
-    "modelNumber": "CRU8239RI",
-    "releaseDate": "2021-12-07T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "Crucial T-Force 32GB DDR5",
-    "brand": "Crucial",
-    "type": "RAM",
-    "price": 76740,
-    "description": "32GB DDR5 3200MHz memory module for gaming and performance",
-    "stock": 22,
-    "image": "https://example.com/images/crucial-t-force.jpg",
-    "specs": {
-      "capacity": "32GB",
-      "speed": "3200MHz",
-      "type": "DDR5",
-      "voltage": "1.5V"
-    },
-    "warranty": "5 years",
-    "modelNumber": "CRU3968T-",
-    "releaseDate": "2023-07-03T00:00:00",
-    "inStock": true
-  },
-  {
-    "name": "PNY Fury 16GB DDR4",
-    "brand": "PNY",
-    "type": "RAM",
-    "price": 73396,
-    "description": "16GB DDR4 5200MHz memory module for gaming and performance",
-    "stock": 37,
-    "image": "https://example.com/images/pny-fury.jpg",
-    "specs": {
-      "capacity": "16GB",
-      "speed": "5200MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
+      "type": "Headphones",
+      "connectivity": "Wired",
+      "noiseCancelling": "Yes"
     },
     "warranty": "3 years",
-    "modelNumber": "PNY9350FU",
-    "releaseDate": "2022-08-31T00:00:00",
+    "modelNumber": "LOG4494",
+    "releaseDate": "2023-08-25T00:00:00",
+    "inStock": false
+  },
+  {
+    "name": "Nikon Camera Model 690",
+    "brand": "Nikon",
+    "type": "Camera",
+    "price": 122426,
+    "description": "Nikon Camera Model 690 for high-performance computing.",
+    "stock": 18,
+    "image": "https://example.com/images/nikon_camera_77.jpg",
+    "specs": {
+      "resolution": "48MP",
+      "sensor": "APS-C",
+      "video": "4K"
+    },
+    "warranty": "1 year",
+    "modelNumber": "NIK3279",
+    "releaseDate": "2021-11-19T00:00:00",
     "inStock": true
   },
   {
-    "name": "TeamGroup Elite 32GB DDR5",
-    "brand": "TeamGroup",
-    "type": "RAM",
-    "price": 23944,
-    "description": "32GB DDR5 4000MHz memory module for gaming and performance",
-    "stock": 8,
-    "image": "https://example.com/images/teamgroup-elite.jpg",
+    "name": "NVIDIA GPU Model 944",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 198815,
+    "description": "NVIDIA GPU Model 944 for high-performance computing.",
+    "stock": 5,
+    "image": "https://example.com/images/nvidia_gpu_78.jpg",
     "specs": {
-      "capacity": "32GB",
-      "speed": "4000MHz",
-      "type": "DDR5",
-      "voltage": "1.35V"
+      "vram": "8GB",
+      "chipset": "RTX 3060",
+      "memoryType": "GDDR6X"
+    },
+    "warranty": "2 years",
+    "modelNumber": "NVI9388",
+    "releaseDate": "2024-02-12T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ASUS Motherboard Model 757",
+    "brand": "ASUS",
+    "type": "Motherboard",
+    "price": 178285,
+    "description": "ASUS Motherboard Model 757 for high-performance computing.",
+    "stock": 9,
+    "image": "https://example.com/images/asus_motherboard_79.jpg",
+    "specs": {
+      "chipset": "B550",
+      "socket": "AM4",
+      "formFactor": "Micro-ATX"
     },
     "warranty": "Limited lifetime",
-    "modelNumber": "TEA1336EL",
-    "releaseDate": "2021-03-26T00:00:00",
+    "modelNumber": "ASU2275",
+    "releaseDate": "2021-07-17T00:00:00",
     "inStock": true
   },
   {
-    "name": "Kingston T-Force 32GB DDR4",
-    "brand": "Kingston",
-    "type": "RAM",
-    "price": 36006,
-    "description": "32GB DDR4 2666MHz memory module for gaming and performance",
-    "stock": 3,
-    "image": "https://example.com/images/kingston-t-force.jpg",
+    "name": "MSI Motherboard Model 652",
+    "brand": "MSI",
+    "type": "Motherboard",
+    "price": 57566,
+    "description": "MSI Motherboard Model 652 for high-performance computing.",
+    "stock": 19,
+    "image": "https://example.com/images/msi_motherboard_80.jpg",
     "specs": {
-      "capacity": "32GB",
-      "speed": "2666MHz",
-      "type": "DDR4",
-      "voltage": "1.5V"
+      "chipset": "Z790",
+      "socket": "LGA1700",
+      "formFactor": "ATX"
     },
-    "warranty": "5 years",
-    "modelNumber": "KIN5114T-",
+    "warranty": "3 years",
+    "modelNumber": "MSI8142",
+    "releaseDate": "2022-09-08T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Sony Audio Model 357",
+    "brand": "Sony",
+    "type": "Audio",
+    "price": 224244,
+    "description": "Sony Audio Model 357 for high-performance computing.",
+    "stock": 1,
+    "image": "https://example.com/images/sony_audio_81.jpg",
+    "specs": {
+      "type": "Headphones",
+      "connectivity": "Wireless",
+      "noiseCancelling": "Yes"
+    },
+    "warranty": "2 years",
+    "modelNumber": "SON5478",
+    "releaseDate": "2024-05-06T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Sony Audio Model 572",
+    "brand": "Sony",
+    "type": "Audio",
+    "price": 72218,
+    "description": "Sony Audio Model 572 for high-performance computing.",
+    "stock": 9,
+    "image": "https://example.com/images/sony_audio_82.jpg",
+    "specs": {
+      "type": "Headphones",
+      "connectivity": "Wireless",
+      "noiseCancelling": "Yes"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "SON2737",
+    "releaseDate": "2024-09-15T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Sony Camera Model 665",
+    "brand": "Sony",
+    "type": "Camera",
+    "price": 207269,
+    "description": "Sony Camera Model 665 for high-performance computing.",
+    "stock": 5,
+    "image": "https://example.com/images/sony_camera_83.jpg",
+    "specs": {
+      "resolution": "48MP",
+      "sensor": "APS-C",
+      "video": "6K"
+    },
+    "warranty": "3 years",
+    "modelNumber": "SON3469",
+    "releaseDate": "2024-10-05T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "AMD GPU Model 199",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 177807,
+    "description": "AMD GPU Model 199 for high-performance computing.",
+    "stock": 7,
+    "image": "https://example.com/images/amd_gpu_84.jpg",
+    "specs": {
+      "vram": "12GB",
+      "chipset": "RTX 3060",
+      "memoryType": "GDDR6"
+    },
+    "warranty": "1 year",
+    "modelNumber": "AMD1975",
     "releaseDate": "2021-12-06T00:00:00",
     "inStock": true
   },
   {
-    "name": "ADATA Predator 64GB DDR5",
-    "brand": "ADATA",
-    "type": "RAM",
-    "price": 73107,
-    "description": "64GB DDR5 3200MHz memory module for gaming and performance",
-    "stock": 24,
-    "image": "https://example.com/images/adata-predator.jpg",
+    "name": "Logitech Audio Model 757",
+    "brand": "Logitech",
+    "type": "Audio",
+    "price": 58441,
+    "description": "Logitech Audio Model 757 for high-performance computing.",
+    "stock": 3,
+    "image": "https://example.com/images/logitech_audio_85.jpg",
     "specs": {
-      "capacity": "64GB",
+      "type": "Earbuds",
+      "connectivity": "Wireless",
+      "noiseCancelling": "Yes"
+    },
+    "warranty": "3 years",
+    "modelNumber": "LOG5807",
+    "releaseDate": "2023-12-08T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill RAM Model 597",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 34762,
+    "description": "G.Skill RAM Model 597 for high-performance computing.",
+    "stock": 14,
+    "image": "https://example.com/images/g.skill_ram_86.jpg",
+    "specs": {
+      "capacity": "16GB",
       "speed": "3200MHz",
       "type": "DDR5",
-      "voltage": "1.35V"
+      "voltage": "1.20V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "G.S3508",
+    "releaseDate": "2023-03-13T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "AMD CPU Model 545",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 112728,
+    "description": "AMD CPU Model 545 for high-performance computing.",
+    "stock": 15,
+    "image": "https://example.com/images/amd_cpu_87.jpg",
+    "specs": {
+      "cores": 4,
+      "threads": 8,
+      "baseClock": "2.67GHz",
+      "boostClock": "4.23GHz"
+    },
+    "warranty": "3 years",
+    "modelNumber": "AMD8017",
+    "releaseDate": "2022-04-03T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Corsair Keyboard Model 835",
+    "brand": "Corsair",
+    "type": "Keyboard",
+    "price": 73777,
+    "description": "Corsair Keyboard Model 835 for high-performance computing.",
+    "stock": 7,
+    "image": "https://example.com/images/corsair_keyboard_88.jpg",
+    "specs": {
+      "type": "Membrane",
+      "switchType": "Blue",
+      "backlight": "Single color"
+    },
+    "warranty": "3 years",
+    "modelNumber": "COR3264",
+    "releaseDate": "2020-02-07T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Sennheiser Audio Model 421",
+    "brand": "Sennheiser",
+    "type": "Audio",
+    "price": 119862,
+    "description": "Sennheiser Audio Model 421 for high-performance computing.",
+    "stock": 1,
+    "image": "https://example.com/images/sennheiser_audio_89.jpg",
+    "specs": {
+      "type": "Earbuds",
+      "connectivity": "Bluetooth",
+      "noiseCancelling": "No"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "SEN7780",
+    "releaseDate": "2023-02-27T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill RAM Model 990",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 102767,
+    "description": "G.Skill RAM Model 990 for high-performance computing.",
+    "stock": 3,
+    "image": "https://example.com/images/g.skill_ram_90.jpg",
+    "specs": {
+      "capacity": "16GB",
+      "speed": "3200MHz",
+      "type": "DDR5",
+      "voltage": "1.29V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "G.S1358",
+    "releaseDate": "2020-11-13T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Panasonic Camera Model 154",
+    "brand": "Panasonic",
+    "type": "Camera",
+    "price": 19129,
+    "description": "Panasonic Camera Model 154 for high-performance computing.",
+    "stock": 18,
+    "image": "https://example.com/images/panasonic_camera_91.jpg",
+    "specs": {
+      "resolution": "48MP",
+      "sensor": "Full Frame",
+      "video": "1080p"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "PAN3475",
+    "releaseDate": "2023-05-26T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "G.Skill RAM Model 852",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 141609,
+    "description": "G.Skill RAM Model 852 for high-performance computing.",
+    "stock": 11,
+    "image": "https://example.com/images/g.skill_ram_92.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "4800MHz",
+      "type": "DDR5",
+      "voltage": "1.27V"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "G.S4580",
+    "releaseDate": "2024-08-14T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "ASRock Motherboard Model 646",
+    "brand": "ASRock",
+    "type": "Motherboard",
+    "price": 173664,
+    "description": "ASRock Motherboard Model 646 for high-performance computing.",
+    "stock": 2,
+    "image": "https://example.com/images/asrock_motherboard_93.jpg",
+    "specs": {
+      "chipset": "X670",
+      "socket": "LGA1700",
+      "formFactor": "Micro-ATX"
+    },
+    "warranty": "1 year",
+    "modelNumber": "ASR9782",
+    "releaseDate": "2022-11-12T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "SteelSeries Keyboard Model 697",
+    "brand": "SteelSeries",
+    "type": "Keyboard",
+    "price": 201793,
+    "description": "SteelSeries Keyboard Model 697 for high-performance computing.",
+    "stock": 1,
+    "image": "https://example.com/images/steelseries_keyboard_94.jpg",
+    "specs": {
+      "type": "Membrane",
+      "switchType": "Red",
+      "backlight": "None"
+    },
+    "warranty": "3 years",
+    "modelNumber": "STE4746",
+    "releaseDate": "2023-02-16T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "NVIDIA GPU Model 779",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 240265,
+    "description": "NVIDIA GPU Model 779 for high-performance computing.",
+    "stock": 5,
+    "image": "https://example.com/images/nvidia_gpu_95.jpg",
+    "specs": {
+      "vram": "6GB",
+      "chipset": "RTX 4070",
+      "memoryType": "GDDR6X"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "NVI8914",
+    "releaseDate": "2020-06-12T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Kingston RAM Model 229",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 172394,
+    "description": "Kingston RAM Model 229 for high-performance computing.",
+    "stock": 2,
+    "image": "https://example.com/images/kingston_ram_96.jpg",
+    "specs": {
+      "capacity": "64GB",
+      "speed": "3600MHz",
+      "type": "DDR5",
+      "voltage": "1.29V"
     },
     "warranty": "2 years",
-    "modelNumber": "ADA5300PR",
-    "releaseDate": "2023-04-02T00:00:00",
+    "modelNumber": "KIN1296",
+    "releaseDate": "2024-04-30T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Logitech Keyboard Model 735",
+    "brand": "Logitech",
+    "type": "Keyboard",
+    "price": 66010,
+    "description": "Logitech Keyboard Model 735 for high-performance computing.",
+    "stock": 10,
+    "image": "https://example.com/images/logitech_keyboard_97.jpg",
+    "specs": {
+      "type": "Membrane",
+      "switchType": "Brown",
+      "backlight": "RGB"
+    },
+    "warranty": "Limited lifetime",
+    "modelNumber": "LOG1244",
+    "releaseDate": "2024-01-01T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "MSI Motherboard Model 814",
+    "brand": "MSI",
+    "type": "Motherboard",
+    "price": 89369,
+    "description": "MSI Motherboard Model 814 for high-performance computing.",
+    "stock": 15,
+    "image": "https://example.com/images/msi_motherboard_98.jpg",
+    "specs": {
+      "chipset": "B550",
+      "socket": "AM5",
+      "formFactor": "Mini-ITX"
+    },
+    "warranty": "2 years",
+    "modelNumber": "MSI1713",
+    "releaseDate": "2024-07-25T00:00:00",
+    "inStock": true
+  },
+  {
+    "name": "Logitech Keyboard Model 387",
+    "brand": "Logitech",
+    "type": "Keyboard",
+    "price": 174685,
+    "description": "Logitech Keyboard Model 387 for high-performance computing.",
+    "stock": 18,
+    "image": "https://example.com/images/logitech_keyboard_99.jpg",
+    "specs": {
+      "type": "Mechanical",
+      "switchType": "Red",
+      "backlight": "Single color"
+    },
+    "warranty": "2 years",
+    "modelNumber": "LOG5571",
+    "releaseDate": "2024-07-25T00:00:00",
     "inStock": true
   }
 ]

@@ -1,5 +1,9 @@
 <script setup>
 import Header from "./components/Header.vue";
+import { useAuthStore } from "./stores/auth";
+
+const auth = useAuthStore();
+auth.tryAutoLogin();
 </script>
 
 <template>

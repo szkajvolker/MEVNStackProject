@@ -1,49 +1,60 @@
 <template>
-  <div class="flex justify-end mr-5 mt-5">
-    <ShowCartBtn v-if="!showCart" :showCart="showCart" @toggle-cart="showCart = !showCart" />
-  </div>
-  <div class="mt-20 relative">
-    <transition name="slide-right">
-      <div
-        v-if="showCart"
-        class="fixed top-0 mt-18 right-0 h-full w-80 z-50 flex justify-end"
-        style="background: rgba(0, 0, 0, 0.2)"
-      >
-        <Cart :showCart="showCart" @toggle-cart="showCart = !showCart" class="h-full" />
-      </div>
-    </transition>
-    <div v-if="!auth.isLoggedIn">
-      <Register />
+  <div class="flex flex-row">
+    <div>
+      <DropdownMenu v-if="products.length" :products="products" @change="handleSelect" />
     </div>
-    <div v-else>
-      <div v-if="loading" class="text-center my-8">Loading...</div>
-      <div v-else-if="error" class="text-red-500 my-8">{{ error }}</div>
-      <div v-else class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <ProductCard
-          v-for="product in products"
-          :key="product._id"
-          :product="product"
-          @show-details="openModal"
-          @delete="deleteProduct"
-        ></ProductCard>
-        <ProductModal
-          v-if="showModal"
-          :product="selectedProduct"
-          @close="showModal = false"
-        ></ProductModal>
+    <div class="mt-20 relative">
+      <div class="flex justify-end mr-5 mt-5">
+        <ShowCartBtn
+          v-if="!showCart"
+          :showCart="showCart"
+          @toggle-cart="showCart = !showCart"
+          class="fixed top-20 right-8 z-50"
+        />
+      </div>
+      <transition name="slide-right">
+        <div
+          v-if="showCart"
+          class="fixed top-0 mt-18 right-0 h-full w-80 z-50 flex justify-end"
+          style="background: rgba(0, 0, 0, 0.2)"
+        >
+          <Cart :showCart="showCart" @toggle-cart="showCart = !showCart" class="h-full" />
+        </div>
+      </transition>
+      <div v-if="!auth.isLoggedIn">
+        <Register />
+      </div>
+      <div v-else>
+        <div v-if="loading" class="text-center my-8">Loading...</div>
+        <div v-else-if="error" class="text-red-500 my-8">{{ error }}</div>
+        <div v-else class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <ProductCard
+            v-for="product in filteredProducts"
+            :key="product._id"
+            :product="product"
+            @show-details="openModal"
+            @delete="deleteProduct"
+          ></ProductCard>
+          <ProductModal
+            v-if="showModal"
+            :product="selectedProduct"
+            @close="showModal = false"
+          ></ProductModal>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, computed } from "vue";
 import ProductCard from "../components/ProductCard.vue";
 import ProductModal from "../components/ProductModal.vue";
 import { useAuthStore } from "../stores/auth";
 import Register from "./Register.vue";
 import Cart from "../components/Cart.vue";
 import ShowCartBtn from "../components/ShowCartBtn.vue";
+import DropdownMenu from "../components/DropdownMenu.vue";
 
 const products = ref([]);
 const loading = ref(true);
@@ -51,6 +62,17 @@ const error = ref("");
 const showModal = ref(false);
 const auth = useAuthStore();
 const showCart = ref(false);
+const selectedOption = ref("");
+
+const filteredProducts = computed(() =>
+  selectedOption.value
+    ? products.value.filter((item) => item.type === selectedOption.value)
+    : products.value
+);
+
+function handleSelect(e) {
+  selectedOption.value = e.target.value;
+}
 
 onMounted(async () => {
   loading.value = true;

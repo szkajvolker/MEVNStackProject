@@ -1,21 +1,31 @@
-import { defineStore } from 'pinia'
+import { defineStore } from "pinia";
 
-export const useAuthStore = defineStore('auth', {
+export const useAuthStore = defineStore("auth", {
   state: () => ({
-    isLoggedIn: false,
-    isAdmin: false,
     user: null,
+    isLoggedIn: false,
   }),
   actions: {
     login(user) {
-      this.isLoggedIn = true
-      this.user = user
-      this.isAdmin = user?.isAdmin || false
+      this.user = user;
+      this.isLoggedIn = true;
     },
     logout() {
-      this.isLoggedIn = false
-      this.user = null
-      this.isAdmin = false
+      this.isLoggedIn = false;
+      this.user = null;
+      localStorage.removeItem("token");
+    },
+    async tryAutoLogin() {
+      const token = localStorage.getItem("token");
+      if (token) {
+        const res = await fetch("http://localhost:3333/api/me", {
+          headers: { Authorization: `Bearer ${token}` },
+        });
+        if (res.ok) {
+          const data = await res.json();
+          this.login(data.user);
+        }
+      }
     },
   },
-})
+});
