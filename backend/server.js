@@ -15,11 +15,11 @@ const PORT = process.env.PORT || 3333;
 app.use(cors());
 app.use(express.json());
 
+app.use("/api", userRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/login", loginRoutes);
 app.use("/api/register", registerRoutes);
 app.use("/api/orders", orderRoutes);
-app.use("/api", userRoutes);
 
 app.listen(PORT, () => {
   connectDB();

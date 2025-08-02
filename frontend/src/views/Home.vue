@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-row">
+  <div class="flex flex-row justify-center">
     <div>
       <DropdownMenu v-if="products.length" :products="products" @change="handleSelect" />
     </div>
     <div class="mt-20 relative">
       <div class="flex justify-end mr-5 mt-5">
         <ShowCartBtn
-          v-if="!showCart"
+          v-if="!showCart && auth.isLoggedIn"
           :showCart="showCart"
           @toggle-cart="showCart = !showCart"
           class="fixed top-20 right-8 z-50"
@@ -27,19 +27,24 @@
       <div v-else>
         <div v-if="loading" class="text-center my-8">Loading...</div>
         <div v-else-if="error" class="text-red-500 my-8">{{ error }}</div>
-        <div v-else class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <ProductCard
-            v-for="product in filteredProducts"
-            :key="product._id"
-            :product="product"
-            @show-details="openModal"
-            @delete="deleteProduct"
-          ></ProductCard>
-          <ProductModal
-            v-if="showModal"
-            :product="selectedProduct"
-            @close="showModal = false"
-          ></ProductModal>
+        <div v-else>
+          <div class="flex flex-col">
+            <BestDeal :products="products" @show-details="openModal" @delete="deleteProduct" />
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <ProductCard
+                v-for="product in filteredProducts"
+                :key="product._id"
+                :product="product"
+                @show-details="openModal"
+                @delete="deleteProduct"
+              ></ProductCard>
+              <ProductModal
+                v-if="showModal"
+                :product="selectedProduct"
+                @close="showModal = false"
+              ></ProductModal>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -55,6 +60,7 @@ import Register from "./Register.vue";
 import Cart from "../components/Cart.vue";
 import ShowCartBtn from "../components/ShowCartBtn.vue";
 import DropdownMenu from "../components/DropdownMenu.vue";
+import BestDeal from "./BestDeal.vue";
 
 const products = ref([]);
 const loading = ref(true);
