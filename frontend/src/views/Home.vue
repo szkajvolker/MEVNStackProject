@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-row justify-center">
-    <div>
+    <div v-if="auth.isLoggedIn">
       <DropdownMenu v-if="products.length" :products="products" @change="handleSelect" />
     </div>
     <div class="mt-20 relative">
