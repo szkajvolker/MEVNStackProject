@@ -60,8 +60,6 @@ backend/
 
 ## Képernyőképek
 
-> Ide illessz be néhány screenshotot a működő alkalmazásról!
-
 ## További információk
 
 - [Vue 3 dokumentáció](https://vuejs.org/)
